@@ -7,70 +7,75 @@
   <link rel="shortcut icon" href="images/icon/favicon.svg">
   <title>Fam-Fan -暮らしを楽しくする家具-</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Metal&family=Noto+Serif+JP:wght@300&display=swap" rel="stylesheet">
   <link rel ="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
+
   <script src="https://kit.fontawesome.com/d0896c8887.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <header>
-    <div class="container">
+  <header id="header">
       <img src="images/header/header.svg" alt="ヘッダーデザイン">
-      <h1>Fam Fan -暮らしを楽しくする家具-</h1>
-      <!-- サイトURLを記述 -->
-      <form id="search-url" action="fam-fan.com" method="get">
-        <input id="write-space" id="s" name="s" type="text" placeholder="探し物を入力して下さい" />
-        <button id="search" type="submit">
-          <i class="fa-solid fa-magnifying-glass"></i>
-        </form>
-
-        <div class="inquiry">
-          <a href="inquiry"><i class="fa-solid fa-envelope"></i>お問い合わせ</a>
-        </div>
-        <ul class="main-nav">
-          <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
-          <li><a href="fav"><i class="fa-regular fa-heart"></i></a></li>
-          <li><a href="cart"><i class="fa-solid fa-cart-shopping"></i></a></li>
-          <li><a href="#"><i class="fa-solid fa-bars"></i></a></li>
-        </ul>
+      <h1>Fam Fun <span>-暮らしを楽しくする家具-</span></h1>
+      
+      <div class="inquiry">
+        <a href="inquiry"><i class="fa-solid fa-envelope"></i>お問い合わせ</a>
       </div>
-  </header>
-
-  <main>
-    <div class="main-visual">
-      <img src="images/hero/mainvisual-dining1.jpeg" alt="ダイニング1">
-      <img src="images/hero/main-visual-dining2.jpeg" alt="ダイニング2">
-      <img src="images/hero/main-visual-bedroom.jpeg" alt="寝室">
-      <h1>新築・子育て世代のご家族にも<br>
-      あって楽しい、心地よい家具を・・・</h1>
-    </div>
-
-    <div class="special-feature wrapper" >
+      <ul class="main-nav">
+        <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
+        <li><a href="fav"><i class="fa-regular fa-heart"></i></a></li>
+        <li><a href="cart"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        <li><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+      </ul>
+    </header>
+    
+    
+    <main>
+      <div class="main-visual mb">
+        <img class="switch-img" src="images/hero/mainvisual-dining1.jpeg" alt="ダイニング">
+        <img class="switch-img" src="images/hero/main-visual-sofa.jpg" alt="ソファー">
+        <img class="switch-img" src="images/hero/hero-bed.jpg" alt="寝室">
+        <h1 class="main-visual-text">新築・子育て世代のご家族にも<br>
+          あって楽しい、心地よい家具を・・・</h1>
+        </div>
+        
+        <form id="search" action="fam-fun.com" method="get">
+          <!-- サイトURLを記述 -->
+          <div class="form-field">
+            <input class="form-input" type="search" name="search" placeholder="探し物を入力して下さい">
+            <input type="submit" value="Search" class="button">
+              <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          </form>
+        <div class="special-feature wrapper mb">
       <img src="images/hero/special-feature.garden.jpeg" alt="ガーデン">
       <img src="images/illust/feature-green.svg" alt="">
       <h2 class="feature-title">家族で楽しむ</h2>
       <h2 class="feature-title">ガーデニング</h2>
     </div>
 
-    <div class="sele">
-      <a href="sele"><img src="images/illust/sale.svg" alt="セール"></a>
+    <div class="sale mb">
+      <a href="sale"><img src="images/illust/sale.svg" alt="セール"></a>
     </div>
 
-    <div class="category">
+    <div class="category wrapper mb">
       <h3>商品を探す</h3>
 
     </div>
 
-    <article class="select wrapper">
+    <article class="select wrapper mb">
       <h2>Fum Funセレクト</h2>
       
     </article>
 
-    <article class="select wrapper">
+    <article class="select wrapper mb">
       <h2>Time sale</h2>
       <p>オンラインショップだけの特別セール</p>
 
     </article>
 
-    <article class="select wrapper">
+    <article class="select wrapper mb">
       <h2>月間カテゴリ別ランキング</h2>
       <div class="category-item">
         <h3>キッチン</h3>
@@ -89,14 +94,14 @@
       </div>
     </article>
 
-    <div class="shop-info">
+    <div class="shop-info wrapper mb">
       <a href="info"></a>
       <img src="images/hero/store-info-house.jpg" alt="ハウス">
       <h2>Fam Fun -店舗情報-</h2>
       <p>Check it now</p>
     </div>
 
-    <div class="notice">
+    <div class="notice wrapper mb">
       <ul>
         <li><a href="notice">2022/03 新生活応援セール開催</a></li>
         <li><a href="notice">2022/02 新商品のお知らせ</a></li>
@@ -108,7 +113,7 @@
       <a href="notice">もっと見る</a>
     </div>
 
-    <div class="sns">
+    <div class="sns wrapper mb">
       <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i>Twitter</a>
       <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i>Instagram</a>
       <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i>Facebook</a>
@@ -148,5 +153,6 @@
     <p class="copy"> &copy;2022 Fam Fan -暮らしを楽しくする家具-</p>
   </footer>
 
+  <script src="js/main.js"></script>
 </body>
 </html>
