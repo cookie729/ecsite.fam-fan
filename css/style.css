@@ -1,9 +1,9 @@
 html {
   width: 100%;
-  font-size: 100%;
 }
 
 body {
+  font-size: 100%;
   font-family: "Noto Serif JP", serif;
   font-family: "Dancing Script", cursive;
   font-family: "Metal", cursive "Noto Serif JP", serif;
@@ -14,13 +14,23 @@ img {
   width: 100%;
 }
 
-h1, h2, p {
+h1, h2, h3, p {
   font-family: "Noto Serif JP", serif;
   color: #707070;
 }
 
+h2 {
+  font-size: 1.35rem;
+}
+
 .mb {
   margin-bottom: 40px;
+}
+
+.wrapper {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #header {
@@ -43,7 +53,7 @@ h1, h2, p {
   z-index: 100;
 }
 #header span {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-family: "Noto Serif JP", serif;
 }
 #header .inquiry {
@@ -125,7 +135,7 @@ h1, h2, p {
   line-height: 2;
   margin-left: 10px;
   position: absolute;
-  bottom: 50%;
+  bottom: 45%;
   z-index: 50;
   -webkit-animation: change-text-color 21s infinite;
           animation: change-text-color 21s infinite;
@@ -157,5 +167,53 @@ h1, h2, p {
   100% {
     color: #e7e7e7;
   }
+}
+
+#search {
+  width: 300px;
+  padding: 5px 0;
+  background: #fff;
+  text-align: center;
+  position: absolute;
+  margin: auto;
+  z-index: 50;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+}
+#search .form-input {
+  font-size: 0.8rem;
+}
+
+.special-feature {
+  position: relative;
+}
+.special-feature .feature-img {
+  width: 100%;
+  position: relative;
+}
+.special-feature .feature-text {
+  position: absolute;
+  left: 5px;
+  width: 80px;
+}
+.special-feature h2 {
+  font-size: 1.35rem;
+  position: absolute;
+  top: 35%;
+}
+.special-feature .feature-text-fam {
+  left: 9%;
+}
+.special-feature .feature-text-garden {
+  right: 9%;
+}
+
+.category {
+  display: grid;
+}
+.category img {
+  width: 20px;
+  color: blue;
 }
 /*# sourceMappingURL=style.css.map */

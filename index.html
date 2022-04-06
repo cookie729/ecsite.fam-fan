@@ -10,7 +10,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Metal&family=Noto+Serif+JP:wght@300&display=swap" rel="stylesheet">
-  <link rel ="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
+  <link rel =”stylesheet” href =”https://unpkg.com/ress/dist/ress.min.css”>
+  <!-- <link rel ="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css"> -->
 
   <script src="https://kit.fontawesome.com/d0896c8887.js" crossorigin="anonymous"></script>
 </head>
@@ -38,30 +39,42 @@
         <img class="switch-img" src="images/hero/hero-bed.jpg" alt="寝室">
         <h1 class="main-visual-text">新築・子育て世代のご家族にも<br>
           あって楽しい、心地よい家具を・・・</h1>
+          
+          <form id="search" action="fam-fun.com" method="get">
+            <!-- サイトURLを記述 -->
+            <div class="form-field">
+              <input class="form-input" type="search" name="search" placeholder="探し物を入力して下さい">
+              <input type="submit" value="Search" class="button">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </form>
         </div>
         
-        <form id="search" action="fam-fun.com" method="get">
-          <!-- サイトURLを記述 -->
-          <div class="form-field">
-            <input class="form-input" type="search" name="search" placeholder="探し物を入力して下さい">
-            <input type="submit" value="Search" class="button">
-              <i class="fa-solid fa-magnifying-glass"></i>
-          </div>
-          </form>
         <div class="special-feature wrapper mb">
-      <img src="images/hero/special-feature.garden.jpeg" alt="ガーデン">
-      <img src="images/illust/feature-green.svg" alt="">
-      <h2 class="feature-title">家族で楽しむ</h2>
-      <h2 class="feature-title">ガーデニング</h2>
-    </div>
+            <a href="special-feature">
+            <img class="feature-img" src="images/hero/special-feature.garden.jpeg" alt="ガーデン">
+            <img class="feature-text" src="images/illust/feature-green.svg" alt="特集">
+            <h2 class="feature-text-fam">家族で楽しむ</h2>
+            <h2 class="feature-text-garden">ガーデニング</h2>
+          </a>
+        </div>
 
-    <div class="sale mb">
+    <div class="sale wrapper mb">
       <a href="sale"><img src="images/illust/sale.svg" alt="セール"></a>
     </div>
 
     <div class="category wrapper mb">
-      <h3>商品を探す</h3>
-
+      <h2>商品を探す</h2>
+      <a href="kitchen"><i class="fa-solid fa-kitchen-set"></i> キッチン</a>
+      <a href="table"><img src="images/icon/table.svg" alt=""> テーブル</a>
+      <a href="kotatu"><img src="images/icon/kotatu.svg" alt=""> こたつ</a>
+      <a href="sofa"><i class="fa-solid fa-couch"></i>ソファ</a>
+      <a href="chair"><i class="fa-solid fa-chair"></i>椅子</a>
+      <a href="bed"><img src="images/icon/bed.svg" alt=""> 寝具</a>
+      <a href="bath"><i class="fa-solid fa-bath"></i>バス</a>
+      <a href="storage"><img src="images/icon/storage.svg" alt=""> 収納</a>
+      <a href="illumination"><img src="images/icon/lamp.svg" alt=""> 照明</a>
+      <a href="others"><i class="fa-solid fa-pen-clip"></i>生活雑貨</a>
     </div>
 
     <article class="select wrapper mb">
