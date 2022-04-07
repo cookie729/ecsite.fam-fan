@@ -178,11 +178,21 @@ h2 {
   }
 }
 
-.category {
-  display: grid;
-
+.category-flex {
+  display: flex;
+  flex-wrap: wrap;
+  
+  & a {
+    width: 49.%;
+    height: 50px;
+    border: solid 1px #707070;
+  }
   & img {
     width: 20px;
-    
+    height: 20px;
+    margin: {
+      left: 5%;
+      right: 5%;
+    }
   }
 }
