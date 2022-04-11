@@ -1,0 +1,75 @@
+// -------------------------
+// @media min 800
+// -------------------------
+@media (min-width: 1000px) {
+  .wrapper {
+    max-width: 1200px;
+  }
+
+  .main-visual-text {
+    font-size: 1.8rem;
+  }
+
+  .feature {
+    h2 {
+      font-size: 2rem;
+    }
+    &-text-img {
+      width: 100px;
+    }
+  }
+
+  #category {
+    .grid { 
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      & img {
+        margin-left: 10%;
+        margin-right: 5%;
+      }
+      & i {
+        margin-right: 10%;
+      }
+      & a {
+        padding: 15px 0;
+      }
+      & a:hover i {
+        margin-right: 10%;
+      }
+    }
+  }
+
+  #select,
+  #time-sale,
+  #ranking {
+    .shop-item {
+      width: 19%;
+    }
+    .shop-item-desk-top {
+      display: block;
+    }
+  }
+
+  #ranking {
+    .ranking-desktop {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 85%;
+      margin: {
+        left: auto;
+        right: auto;
+      }
+      & .ranking-wrap {
+        width: 45%;
+        margin: 0;
+      }
+      & .shop-item {
+        width: 30%;
+      }
+    }
+  }
+
+  #sns .fa-2x {
+    font-size: 50px;
+  }
+}
