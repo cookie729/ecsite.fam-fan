@@ -33,9 +33,13 @@ h1, h2, h3, p, a, li {
   transition-duration: 0.3s;
 }
 
-a:hover i {
+a .arrow-animation {
+  transition: all 0.15s ease-in-out;
+}
+
+a:hover .arrow-animation {
   margin-left: 3px;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .section-title {
@@ -65,10 +69,11 @@ a:hover {
 }
 
 #header {
+  position: fixed;
   width: 100%;
   height: 40px;
   background: #fffbcc;
-  position: relative;
+  z-index: 200;
 }
 #header img {
   width: 180px;
@@ -417,6 +422,13 @@ a:hover {
   margin-bottom: 5px;
 }
 
+.ranking-number {
+  width: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 #info {
   position: relative;
 }
@@ -470,12 +482,12 @@ a:hover {
 #footer {
   padding-bottom: 0;
 }
-#footer .footer-nav {
+#footer .footer-wrap {
   display: flex;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-#footer .footer-nav li {
+#footer li {
   margin-bottom: 10px;
 }
 #footer .site-nav i {
@@ -483,7 +495,6 @@ a:hover {
 }
 #footer .contact {
   text-align: left;
-  margin-left: 30%;
 }
 #footer .address {
   margin-bottom: 10px;

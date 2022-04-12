@@ -2,9 +2,9 @@
 // @media min 800
 // -------------------------
 @media (min-width: 1000px) {
-  .wrapper {
-    max-width: 1200px;
-  }
+  // .wrapper {
+    // max-width: 1200px;
+  // }
 
   .main-visual-text {
     font-size: 1.8rem;
@@ -72,4 +72,17 @@
   #sns .fa-2x {
     font-size: 50px;
   }
-}
+
+
+  #footer {
+    // width: 100%;
+    .footer-wrap {
+      display: flex;
+  //     justify-content: space-between;
+    }
+  //   & .contact {
+  //     // margin-left: 0;
+  //     }
+    }
+  }
+

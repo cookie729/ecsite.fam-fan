@@ -42,9 +42,12 @@ h1, h2, h3, p, a, li {
     transition-duration: .3s;
   }
 }
-a:hover i {
+a .arrow-animation {
+  transition: all .15s ease-in-out;
+}
+a:hover .arrow-animation {
   margin-left: 3px;
-  transition: all .5s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 .section-title {
@@ -80,10 +83,12 @@ a:hover {
 // header
 // -------------------------
 #header {
+  position: fixed;
   width: 100%;
   height: 40px;
   background: $accent-color;
-  position: relative;
+  // position: relative;
+  z-index: 200;
   & img {
     width: 180px;
     position: absolute;
@@ -377,6 +382,13 @@ a:hover {
   margin-bottom: 5px;
 }
 
+.ranking-number {
+  width: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
 // -------------------------
 // info
 // -------------------------
@@ -447,22 +459,28 @@ a:hover {
 // -------------------------
 #footer {
   padding-bottom: 0;
-  & .footer-nav {
+  & .footer-wrap {
     display: flex;
-    margin: {
-      top: 25px;
-      bottom: 25px;
-    }
-    & li {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  // & .footer-nav,
+  // & .contact {
+  //   display: flex;
+  //   margin: {
+  //     top: 25px;
+  //     bottom: 25px;
+  //   }
+  & li {
       margin-bottom: 10px;
     }
-  }
+  // }
   & .site-nav i {
     margin-right: 8px;
   }
   & .contact {
     text-align: left;
-    margin-left: 30%;
+    // margin-left: 30%;
   }
   
   & .address {
@@ -478,7 +496,7 @@ a:hover {
     }
   }
 
-  & #copy {
+  #copy {
     font-size: .85rem;
     text-align: center;
     background: $accent-color;

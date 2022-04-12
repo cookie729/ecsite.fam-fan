@@ -1,8 +1,4 @@
 @media (min-width: 1000px) {
-  .wrapper {
-    max-width: 1200px;
-  }
-
   .main-visual-text {
     font-size: 1.8rem;
   }
@@ -60,6 +56,10 @@
 
   #sns .fa-2x {
     font-size: 50px;
+  }
+
+  #footer .footer-wrap {
+    display: flex;
   }
 }
 /*# sourceMappingURL=desktop.css.map */
