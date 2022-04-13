@@ -6,6 +6,9 @@
     // max-width: 1200px;
   // }
 
+  .main-visual {
+    height: 400px;
+  }
   .main-visual-text {
     font-size: 1.8rem;
   }
@@ -73,16 +76,5 @@
     font-size: 50px;
   }
 
-
-  #footer {
-    // width: 100%;
-    .footer-wrap {
-      display: flex;
-  //     justify-content: space-between;
-    }
-  //   & .contact {
-  //     // margin-left: 0;
-  //     }
-    }
   }
 

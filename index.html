@@ -17,18 +17,19 @@
 </head>
 <body>
   <header id="header">
+    <div class="header-wrap">
       <img src="images/header/header.svg" alt="ヘッダーデザイン">
-      <h1>Fam Fun <span>-暮らしを楽しくする家具-</span></h1>
+      <h1 class="site-title">Fam Fun <span>-暮らしを楽しくする家具-</span></h1>
       
-      <div class="inquiry">
-        <a href="inquiry"><i class="fa-solid fa-envelope"></i>お問い合わせ</a>
-      </div>
-      <ul class="main-nav">
-        <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
-        <li><a href="fav"><i class="fa-regular fa-heart"></i></a></li>
-        <li><a href="cart"><i class="fa-solid fa-cart-shopping"></i></a></li>
-        <li><a href="#"><i class="fa-solid fa-bars"></i></a></li>
-      </ul>
+      <nav>
+        <button class="btn-menu"><i class="fa-solid fa-bars"></i></button>
+        <ul class="main-nav">
+          <li><a href="#"><i class="fa-solid fa-house"></i>ホーム</a></li>
+          <li><a href="fav"><i class="fa-regular fa-heart"></i>お気に入り</a></li>
+          <li><a href="cart"><i class="fa-solid fa-cart-shopping"></i>カート</a></li>
+          <li><a href="inquiry"><i class="fa-solid fa-envelope"></i>お問い合わせ</a></li>
+        </ul>
+      </nav>
     </header>
     
     
@@ -40,14 +41,15 @@
         <h1 class="main-visual-text">新築・子育て世代のご家族にも<br>
           あって楽しい、心地よい家具を・・・</h1>
           
-          <form id="search" action="fam-fun.com" method="get">
+          <form id="search-form" action="#">
             <!-- サイトURLを記述 -->
-            <div class="form-field">
-              <input class="form-input" type="search" name="search" placeholder="探し物を入力して下さい">
-              <input type="submit" value="Search" class="button">
-              <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
+              <input class="form-text" type="text" name="word" placeholder="探し物を入力して下さい">
+              <div class="button">
+                <input class="search-button" type="submit" value="Search">
+                <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+              </div>
           </form>
+          <p id="search-output"></p>
         </div>
         
         <section class="feature wrapper mb">
@@ -300,9 +302,9 @@
   </main>
 
   <footer id="footer" class="wrapper">
-    <div class="footer-wrap">
-      <div class="footer-nav">
-        <div class="site-nav">
+    <div class="footer-nav">
+      <!-- <div class="footer-nav"> -->
+        <div class="site-nav footer-content-m">
           <ul>
             <li><a href="#"><i class="fa-solid fa-house"></i>ホーム</a></li>
             <li><a href="category"><i class="fa-solid fa-magnifying-glass"></i>カテゴリー一覧</a></li>
@@ -310,16 +312,16 @@
             <li><a href="cart"><i class="fa-solid fa-cart-shopping"></i>カートを見る</a></li>
           </ul>
         </div>
-      </div>
         
-        <div class="contact">
+        <div class="contact footer-content-m">
           <ul>
             <li><a href="inquiry">お問い合わせ</a></li>
             <li><a href="question">よくある質問</a></li>
             <li><a href="info">店舗情報</a></li>
           </ul>
         </div>
-      
+      <!-- </div> -->
+        
       <div class="address">
         <p>ご連絡</p>
         <div class="address-wrap">
