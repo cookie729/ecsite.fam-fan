@@ -2,15 +2,37 @@
 // @media min 800
 // -------------------------
 @media (min-width: 1000px) {
-  // .wrapper {
+  .wrapper {
+    width: 75%;
     // max-width: 1200px;
-  // }
+  }
+
+  #header{
+    .header-wrap {
+      width: 75%;
+    }
+    nav {
+    display: none;
+    }
+  }
+
+
+  #search-form {
+    width: 400px;
+    padding: 1.5px;
+    & .form-text {
+      width: 85%;
+    } 
+  }
 
   .main-visual {
     height: 400px;
   }
   .main-visual-text {
     font-size: 1.8rem;
+    left: 11.5%;
+    // position: absolute;
+
   }
 
   .feature {
@@ -52,12 +74,19 @@
     }
   }
 
+  .category-wrap,
+  .ranking-wrap,
+  .news-wrap,
+  .footer-nav {
+    width: 75%;
+  }
+
   #ranking {
     .ranking-desktop {
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
-      width: 85%;
+      width: 75%;
       margin: {
         left: auto;
         right: auto;
@@ -70,6 +99,9 @@
         width: 30%;
       }
     }
+  }
+  .ranking-main-title {
+    width: 75%;
   }
 
   #sns .fa-2x {

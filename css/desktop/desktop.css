@@ -1,10 +1,30 @@
 @media (min-width: 1000px) {
+  .wrapper {
+    width: 75%;
+  }
+
+  #header .header-wrap {
+    width: 75%;
+  }
+  #header nav {
+    display: none;
+  }
+
+  #search-form {
+    width: 400px;
+    padding: 1.5px;
+  }
+  #search-form .form-text {
+    width: 85%;
+  }
+
   .main-visual {
     height: 400px;
   }
 
   .main-visual-text {
     font-size: 1.8rem;
+    left: 11.5%;
   }
 
   .feature h2 {
@@ -42,11 +62,18 @@
     display: block;
   }
 
+  .category-wrap,
+.ranking-wrap,
+.news-wrap,
+.footer-nav {
+    width: 75%;
+  }
+
   #ranking .ranking-desktop {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 85%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -56,6 +83,10 @@
   }
   #ranking .ranking-desktop .shop-item {
     width: 30%;
+  }
+
+  .ranking-main-title {
+    width: 75%;
   }
 
   #sns .fa-2x {

@@ -100,12 +100,9 @@ a:hover {
 }
 
 .btn-menu {
-  position: absolute;
-  top: 5px;
-  right: 5px;
   border: 1px solid rgba(255, 255, 255, 0.5);
   color: #707070;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0;
 }
 
 .main-nav {
@@ -123,12 +120,14 @@ a:hover {
 }
 
 .main-nav li {
-  text-align: center;
   margin: 2rem 0;
+  text-align: center;
 }
 
 .main-nav a {
   display: block;
+  width: 200px;
+  margin: 0 auto;
 }
 
 .main-visual {
@@ -143,6 +142,7 @@ a:hover {
   margin-left: 10px;
   position: absolute;
   bottom: 45%;
+  left: 6%;
   z-index: 50;
   -webkit-animation: change-text-color 21s infinite;
           animation: change-text-color 21s infinite;
@@ -237,7 +237,7 @@ a:hover {
 #search-form {
   width: 300px;
   padding: 1.5px;
-  background: #554f4f;
+  background: #706d6d;
   text-align: center;
   position: absolute;
   bottom: 15px;
@@ -249,19 +249,18 @@ a:hover {
   justify-content: space-around;
 }
 #search-form .form-text {
-  width: 75%;
+  width: 80%;
   background: #fff;
-  margin: 0;
   font-size: 0.8rem;
   padding: 2px;
-  margin: 2px;
+  margin: 2px auto;
 }
-#search-form .button {
-  width: 25%;
+#search-form .search-button {
+  width: 95%;
   background: #adadad;
   color: #222223;
-  padding: 2px;
-  margin: 2px;
+  padding: 2px 8px;
+  margin: 2px auto;
 }
 
 .feature {
@@ -362,6 +361,12 @@ a:hover {
 #ranking .shop-item span {
   color: #eb3c10;
 }
+#select .shop-item:hover,
+#time-sale .shop-item:hover,
+#ranking .shop-item:hover {
+  opacity: 0.7;
+  transition-duration: 0;
+}
 #select .item-box,
 #time-sale .item-box,
 #ranking .item-box {
@@ -423,22 +428,11 @@ a:hover {
   background: #fff;
   width: 100%;
 }
-#category .category-wrap,
-#category .ranking-wrap,
-#category .news-wrap,
-#category .footer-nav,
-#ranking .category-wrap,
-#ranking .ranking-wrap,
-#ranking .news-wrap,
-#ranking .footer-nav,
-#news .category-wrap,
-#news .ranking-wrap,
-#news .news-wrap,
-#news .footer-nav,
-#footer .category-wrap,
-#footer .ranking-wrap,
-#footer .news-wrap,
-#footer .footer-nav {
+
+.category-wrap,
+.ranking-wrap,
+.news-wrap,
+.footer-nav {
   width: 85%;
   margin-left: auto;
   margin-right: auto;
