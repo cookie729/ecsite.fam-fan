@@ -114,9 +114,9 @@ a:hover {
   }
 }
 .btn-menu {
-  // position: absolute;
-  // top: 5px;
-  // right: 4.5%;
+  position: absolute;
+  top: 5px;
+  right: 4.5%;
   border: 1px solid rgba(255, 255, 255, .5);
   color: #707070;
   padding: .5rem 0;
@@ -166,7 +166,7 @@ a:hover {
   animation: change-text-color 21s infinite;
 }
   
-.switch-img {
+.main-visual-switch-img {
     opacity: 0;
     width: 100%;
     height: 100%;
@@ -227,6 +227,9 @@ a:hover {
     color: rgb(34, 34, 35);
     padding: 2px 8px;
     margin: 2px auto;
+    &:hover {
+      opacity: .8;
+    }
   }
 }
 
@@ -245,7 +248,7 @@ a:hover {
     left: 5px;
     width: 60px;
   }
-  & h2 {
+  & .feature-text {
     font-size: 1.2rem;
     position: absolute;
     top: 35%;

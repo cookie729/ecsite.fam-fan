@@ -100,6 +100,9 @@ a:hover {
 }
 
 .btn-menu {
+  position: absolute;
+  top: 5px;
+  right: 4.5%;
   border: 1px solid rgba(255, 255, 255, 0.5);
   color: #707070;
   padding: 0.5rem 0;
@@ -148,7 +151,7 @@ a:hover {
           animation: change-text-color 21s infinite;
 }
 
-.switch-img {
+.main-visual-switch-img {
   opacity: 0;
   width: 100%;
   height: 100%;
@@ -160,11 +163,11 @@ a:hover {
   -webkit-animation: switch 21s 0s infinite;
           animation: switch 21s 0s infinite;
 }
-.switch-img:nth-of-type(2) {
+.main-visual-switch-img:nth-of-type(2) {
   -webkit-animation-delay: 7s;
           animation-delay: 7s;
 }
-.switch-img:nth-of-type(3) {
+.main-visual-switch-img:nth-of-type(3) {
   -webkit-animation-delay: 14s;
           animation-delay: 14s;
 }
@@ -262,6 +265,9 @@ a:hover {
   padding: 2px 8px;
   margin: 2px auto;
 }
+#search-form .search-button:hover {
+  opacity: 0.8;
+}
 
 .feature {
   position: relative;
@@ -275,7 +281,7 @@ a:hover {
   left: 5px;
   width: 60px;
 }
-.feature h2 {
+.feature .feature-text {
   font-size: 1.2rem;
   position: absolute;
   top: 35%;
