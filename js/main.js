@@ -6,7 +6,7 @@ document.getElementById('search-form').onsubmit = function(event) {
   document.getElementById('search-output').textContent =`「${search}」の検索中・・・`;
 };
 
-const btn = document.querySelector('.btn-menu');
+const btn = document.querySelector('.hamburger-menu');
 const nav = document.querySelector('.main-nav');
 btn.addEventListener('click', () => {
   nav.classList.toggle('open-menu');
