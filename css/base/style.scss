@@ -4,6 +4,7 @@ $accent-color: #fffbcc;
 $main-color: #707070;
 $border-color: #cfcece;
 $bg-color: #fff;
+$sale-color: #eb3c10;
 
 
 // -------------------------
@@ -72,14 +73,14 @@ a:hover {
       transition: all .15s ease-in-out;
     }
   }
-  a:hover {
-    opacity: .8;
-    color: #0146c5;
-    transition-duration: .3s;
-    .arrow-animation {
-      margin-left: 3px;
-      transition: all .3s ease-in-out;
-    }
+}
+a:hover {
+  opacity: .8;
+  color: #0146c5;
+  transition-duration: .3s;
+  .arrow-animation {
+    margin-left: 3px;
+    transition: all .3s ease-in-out;
   }
 }
 
@@ -309,6 +310,19 @@ a:hover {
     padding: 10px 0;
     &:hover {
       transform: scale(1.1);
+      i {
+        margin: {
+          left: auto;
+          right: 20%;
+        }
+      }
+    }
+  }
+  i {
+    color: #ffc15d;
+    margin: {
+      left: auto;
+      right: 20%;
     }
   }
   p {
@@ -322,19 +336,6 @@ a:hover {
       right: 10%;
     }
   }
-  i {
-    color: #ffc15d;
-    margin: {
-      left: auto;
-      right: 20%;
-    }
-  }
-  & a:hover i {
-    margin: {
-      left: auto;
-      right: 20%;
-    }
-  }
   &-item {
     border: .5px solid $border-color;
   }
@@ -344,7 +345,7 @@ a:hover {
 // shop-item
 // -------------------------
 #select,
-#time-sale,
+#sale,
 #ranking {
   height: 100%;
 }
@@ -361,9 +362,6 @@ a:hover {
     display: flex;
     justify-content: space-between;
   }
-  span {
-    color: #eb3c10;
-  }
   &-desk-top {
     display: none;
   }
@@ -371,6 +369,7 @@ a:hover {
     transition-duration: .5s;
     transform: scale(1.2);
   }
+  
 }
 .item-details {
   height: 3rem;
@@ -400,14 +399,14 @@ a:hover {
 }
 
 // -------------------------
-// time-sale
+// sale
 // -------------------------
-#time-sale {
+#sale {
   margin-bottom: 35px;
-  & .section-title {
+  .section-title {
     margin-bottom: 0;
   }
-  & .shop-item {
+  .shop-item {
     position: relative;
   }
 }
@@ -418,7 +417,13 @@ a:hover {
   left: 0;
 }
 
+.sale-price {
+  color: $sale-color;
+}
 
+// -------------------------
+// ranking
+// -------------------------
 .ranking-main-title {
   width: 85%;
     margin: {
@@ -445,7 +450,12 @@ a:hover {
   position: absolute;
   top: 0;
   left: 0;
-
+}
+.sale-tag-right {
+  display: inline-block;
+  width: 50px;
+  position: absolute;
+  right: 0;
 }
 // -------------------------
 // info

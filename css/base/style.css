@@ -56,12 +56,13 @@ a:hover {
 .more a .arrow-animation {
   transition: all 0.15s ease-in-out;
 }
-.more a:hover {
+
+a:hover {
   opacity: 0.8;
   color: #0146c5;
   transition-duration: 0.3s;
 }
-.more a:hover .arrow-animation {
+a:hover .arrow-animation {
   margin-left: 3px;
   transition: all 0.3s ease-in-out;
 }
@@ -326,6 +327,15 @@ a:hover {
 .category-grid a:hover {
   transform: scale(1.1);
 }
+.category-grid a:hover i {
+  margin-left: auto;
+  margin-right: 20%;
+}
+.category-grid i {
+  color: #ffc15d;
+  margin-left: auto;
+  margin-right: 20%;
+}
 .category-grid p {
   font-size: 1rem;
 }
@@ -335,21 +345,12 @@ a:hover {
   margin-left: 15%;
   margin-right: 10%;
 }
-.category-grid i {
-  color: #ffc15d;
-  margin-left: auto;
-  margin-right: 20%;
-}
-.category-grid a:hover i {
-  margin-left: auto;
-  margin-right: 20%;
-}
 .category-grid-item {
   border: 0.5px solid #cfcece;
 }
 
 #select,
-#time-sale,
+#sale,
 #ranking {
   height: 100%;
 }
@@ -367,9 +368,6 @@ a:hover {
 .shop-item-wrap-flex {
   display: flex;
   justify-content: space-between;
-}
-.shop-item-wrap span {
-  color: #eb3c10;
 }
 .shop-item-wrap-desk-top {
   display: none;
@@ -405,13 +403,13 @@ a:hover {
   margin-bottom: 25px;
 }
 
-#time-sale {
+#sale {
   margin-bottom: 35px;
 }
-#time-sale .section-title {
+#sale .section-title {
   margin-bottom: 0;
 }
-#time-sale .shop-item {
+#sale .shop-item {
   position: relative;
 }
 
@@ -420,6 +418,10 @@ a:hover {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.sale-price {
+  color: #eb3c10;
 }
 
 .ranking-main-title {
@@ -444,6 +446,13 @@ a:hover {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.sale-tag-right {
+  display: inline-block;
+  width: 50px;
+  position: absolute;
+  right: 0;
 }
 
 #info {
