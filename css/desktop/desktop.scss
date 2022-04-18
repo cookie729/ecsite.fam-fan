@@ -4,7 +4,13 @@
 @media (min-width: 1000px) {
   .wrapper {
     width: 75%;
-    // max-width: 1200px;
+  }
+
+  .white-bg {
+    width: 100%;
+    &-inner {
+      width: 75%;
+    }
   }
 
   #header{
@@ -64,22 +70,19 @@
   }
 
   #select,
-  #time-sale,
+  #sale,
   #ranking {
-    .shop-item {
-      width: 19%;
-    }
     .shop-item-desk-top {
       display: block;
     }
   }
 
-  .category-wrap,
-  .ranking-wrap,
-  .news-wrap,
-  .footer-nav {
-    width: 75%;
-  }
+  // .category-wrap,
+  // .ranking-wrap,
+  // .news-wrap,
+  // .footer-nav {
+  //   // width: 75%;
+  // }
 
   #ranking {
     .ranking-desktop {
@@ -95,9 +98,6 @@
         width: 45%;
         margin: 0;
       }
-      & .shop-item {
-        width: 30%;
-      }
     }
   }
   .ranking-main-title {
@@ -107,6 +107,5 @@
   #sns .fa-2x {
     font-size: 50px;
   }
-
-  }
+}
 

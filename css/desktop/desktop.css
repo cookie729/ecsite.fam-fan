@@ -3,6 +3,13 @@
     width: 75%;
   }
 
+  .white-bg {
+    width: 100%;
+  }
+  .white-bg-inner {
+    width: 75%;
+  }
+
   #header .header-wrap {
     width: 75%;
   }
@@ -51,22 +58,10 @@
     margin-right: 10%;
   }
 
-  #select .shop-item,
-#time-sale .shop-item,
-#ranking .shop-item {
-    width: 19%;
-  }
   #select .shop-item-desk-top,
-#time-sale .shop-item-desk-top,
+#sale .shop-item-desk-top,
 #ranking .shop-item-desk-top {
     display: block;
-  }
-
-  .category-wrap,
-.ranking-wrap,
-.news-wrap,
-.footer-nav {
-    width: 75%;
   }
 
   #ranking .ranking-desktop {
@@ -80,9 +75,6 @@
   #ranking .ranking-desktop .ranking-wrap {
     width: 45%;
     margin: 0;
-  }
-  #ranking .ranking-desktop .shop-item {
-    width: 30%;
   }
 
   .ranking-main-title {

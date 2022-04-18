@@ -5,7 +5,7 @@
 }
 
 #select,
-#sal,
+#sale,
 .ranking-pd {
   padding-top: 70px;
 }
@@ -44,6 +44,17 @@ a:hover .item-details {
   border-bottom: solid 1px #707070;
 }
 
+.price-text {
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 1.2rem;
+  color: #707070;
+}
+
+.sale-price {
+  color: #eb3c10;
+}
+
 .details-wrap {
   margin-left: 20px;
 }
@@ -57,14 +68,32 @@ a:hover .item-details {
   margin-bottom: 15px;
 }
 
-.price-text {
-  display: inline-block;
-  margin-top: 5px;
-  font-size: 1.2rem;
-  color: #707070;
-}
-
 #sale .section-title {
   margin-bottom: 6px;
+}
+
+#kitchen,
+#table,
+#dining,
+#sofa,
+#chair,
+#bed,
+#bath,
+#storage,
+#illumination,
+#others {
+  padding-top: 100px;
+  margin-top: -100px;
+}
+
+@media (min-width: 900px) {
+  .shop-item-wrap-flex {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .shop-item-wrap {
+    width: 50%;
+  }
 }
 /*# sourceMappingURL=shop-item.css.map */

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/icon/favicon.svg">
+  <title>Fam-Fan -暮らしを楽しくする家具-</title>
+  <link rel="stylesheet" href="css/base/style.css">
+  <link rel="stylesheet" href="css/desktop/desktop.css">
+  <link rel="stylesheet" href="css/news-contents/news-contens.css">
+  <link rel="stylesheet" href="css/news-contents/news-contents.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Metal&family=Noto+Serif+JP:wght@300&display=swap" rel="stylesheet">
+  <link rel ="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
+
+  <script src="https://kit.fontawesome.com/d0896c8887.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header id="header">
+    <a href="index.html">
+      <div class="header-wrap">
+        <img src="images/header/header.svg" alt="ヘッダーデザイン">
+        <h1 class="site-title">Fam Fun <span>-暮らしを楽しくする家具-</span></h1>
+      </div>
+    </a>
+      
+    <nav>
+      <button class="hamburger-menu"><i class="fa-solid fa-bars"></i></button>
+      <ul class="main-nav">
+        <li><a href="#"><i class="fa-solid fa-house"></i>ホーム</a></li>
+        <li><a href="fav"><i class="fa-regular fa-heart"></i>お気に入り</a></li>
+        <li><a href="cart"><i class="fa-solid fa-cart-shopping"></i>カート</a></li>
+        <li><a href="inquiry"><i class="fa-solid fa-envelope"></i>お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="inquiry" class="wrapper">
+      <h2 class="section-title">お問合わせ</h2>
+
+      <form action="#">
+
+        <div class="form-name form-mb">
+          <label for="name">お名前</label>
+          <input class="form-text text-w" type="text" id="name" name="your-name">
+        </div>
+
+        <div class="form-email form-mb">
+          <label for="email">メールアドレス</label>
+          <input class="form-text text-w" type="email" id="email" name="your-email">
+        </div>
+
+        <div class="form-message form-mb">
+          <label for="message">メッセージ</label>
+          <textarea class="form-text textarea-w" name="your-message" id="message"></textarea>
+        </div>
+
+        <input type="submit" class="button" value="送信">
+
+      </form>
+
+
+    </section>
+
+  </main>
+
+  <footer id="footer" class="wrapper white-bg">
+    <div class="footer-nav white-bg-inner">
+      <div class="site-nav">
+        <ul>
+          <li><a href="#"><i class="fa-solid fa-house"></i>ホーム</a></li>
+          <li><a href="category"><i class="fa-solid fa-magnifying-glass"></i>カテゴリー一覧</a></li>
+          <li><a href="fav"><i class="fa-regular fa-heart"></i>お気に入り</a></li>
+          <li><a href="cart"><i class="fa-solid fa-cart-shopping"></i>カートを見る</a></li>
+        </ul>
+      </div>
+        
+      <div class="contact">
+        <ul>
+          <li><a href="inquiry">お問い合わせ</a></li>
+          <li><a href="question">よくある質問</a></li>
+          <li><a href="info">店舗情報</a></li>
+        </ul>
+      </div>
+        
+      <div class="address">
+        <p>ご連絡</p>
+        <div class="address-wrap">
+          <div class="address-item">
+            <p>Tel</p>
+            <p>Address</p>
+          </div>
+          <div class="address-item">
+            <p>000-0000-0000</p>
+            <p>fam-fun@XXXX.com</p>
+            <p>新潟県新潟市中央区XXXX-X丁目XX番</p>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+    <p id="copy"> &copy;2022 Fam Fan <span> - 暮らしを楽しくする家具 - </span></p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
