@@ -1,5 +1,16 @@
+.inquiry-vh {
+  position: relative;
+  height: 100vh;
+}
+
+.footer-inquiry {
+  position: absolute;
+  bottom: 0;
+}
+
 #news,
-#inquiry {
+#inquiry,
+#info {
   padding-top: 70px;
 }
 
@@ -20,9 +31,10 @@ label {
   display: block;
 }
 
-.form-text {
+.form-text,
+.button {
   background: rgba(255, 255, 255, 0.8);
-  border: solid 1px #fff;
+  border: solid 2px #fff;
   border-radius: 5px;
   font-size: 1.5rem;
 }
@@ -38,8 +50,52 @@ label {
   height: 6rem;
 }
 
-input[type=submit] {
-  border: none;
+.button {
+  color: #b14e07;
+  border: 2px solid #dbd2cb;
   line-height: 1;
+  background: #fffbcc;
+  padding: 5px 10px;
+  font-size: 1rem;
+  transition-duration: 0.2s;
+}
+.button:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+  transition-duration: 0.2s;
+}
+
+#info .section-title {
+  position: relative;
+  margin-bottom: 40px;
+}
+#info .shop-name {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+#info .info-map {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 900px) {
+  .info-details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+
+  .info-map {
+    width: 100%;
+  }
+
+  .address-wrap {
+    width: 400px;
+  }
+
+  #info .shop-name {
+    margin-bottom: 40px;
+  }
 }
 /*# sourceMappingURL=news-contents.css.map */

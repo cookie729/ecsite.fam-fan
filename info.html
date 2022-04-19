@@ -7,7 +7,7 @@
   <link rel="shortcut icon" href="images/icon/favicon.svg">
   <title>Fam-Fan -暮らしを楽しくする家具-</title>
   <link rel="stylesheet" href="css/base/style.css">
-  <link rel="stylesheet" href="css/desktop/desktop.css">
+  <link rel="stylesheet" href="css/news-contents/news-contents.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Metal&family=Noto+Serif+JP:wght@300&display=swap" rel="stylesheet">
@@ -17,32 +17,46 @@
 </head>
 <body>
   <header id="header">
-    <a href="index.html">
-      <div class="header-wrap">
+    <div class="header-wrap">
+        <a href="index.html">
         <img src="images/header/header.svg" alt="ヘッダーデザイン">
         <h1 class="site-title">Fam Fun <span>-暮らしを楽しくする家具-</span></h1>
-      </div>
-    </a>
+      </a>
+    </div>
       
     <nav>
       <button class="hamburger-menu"><i class="fa-solid fa-bars"></i></button>
       <ul class="main-nav">
-        <li><a href="#"><i class="fa-solid fa-house"></i>ホーム</a></li>
-        <li><a href="fav"><i class="fa-regular fa-heart"></i>お気に入り</a></li>
-        <li><a href="cart"><i class="fa-solid fa-cart-shopping"></i>カート</a></li>
-        <li><a href="inquiry"><i class="fa-solid fa-envelope"></i>お問い合わせ</a></li>
+        <li><a href="index.html"><i class="fa-solid fa-house"></i>ホーム</a></li>
+        <li><a href="index.html"><i class="fa-solid fa-cart-shopping"></i>カート</a></li>
+        <li><a href="inquiry.html"><i class="fa-solid fa-envelope"></i>お問い合わせ</a></li>
       </ul>
     </nav>
   </header>
     
   <main>
     <section id="info" class="wrapper mb">
-      <a href="shop-info">
-        <img class="info-img" src="images/hero/shop-info.svg" alt="ハウス">
-        <h2 class="section-title">- 店舗情報 -</h2>
-        <p class="info-text">Check it now <i class="fa-solid fa-arrow-right fa-xs"></i></p>
-      </a>
+      <h2 class="section-title">- 店舗情報 -</h2>
+      <h3 class="shop-name">Fam Fan -暮らしを楽しくする家具-所在地</h3>
+        <div class="info-details">
+              <iframe class="info-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12595.170588571676!2d139.0441597412046!3d37.88853161042178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff4c8e26b941f5f%3A0x24b9e0411bda7a55!2z6bOl5bGL6YeO5r2f!5e0!3m2!1sja!2sjp!4v1650350668794!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+          <div class="address">
+            <div class="address-wrap">
+              <div class="address-item">
+                <p>Tel</p>
+                <p>Address</p>
+              </div>
+              <div class="address-item">
+                <p>000-0000-0000</p>
+                <p>fam-fun@XXXX.com</p>
+                <p>新潟県新潟市中央区XXXX-X丁目XX番</p>
+              </div>
+            </div>
+          </div>
+        </div>
     </section>
+
 
     <section id="feature-banner" class="wrapper mb">
         <a href="feature.html">
@@ -79,20 +93,19 @@
   <footer id="footer" class="wrapper white-bg">
     <div class="footer-nav white-bg-inner">
       <div class="site-nav">
-        <ul>
-          <li><a href="#"><i class="fa-solid fa-house"></i>ホーム</a></li>
-          <li><a href="category"><i class="fa-solid fa-magnifying-glass"></i>カテゴリー一覧</a></li>
-          <li><a href="fav"><i class="fa-regular fa-heart"></i>お気に入り</a></li>
-          <li><a href="cart"><i class="fa-solid fa-cart-shopping"></i>カートを見る</a></li>
+        <ul class="footer-menu">
+          <li><a href="index.html"><i class="fa-solid fa-house"></i>ホーム</a></li>
+          <li><a href="category.html"><i class="fa-solid fa-magnifying-glass"></i>カテゴリー一覧</a></li>
+          <li><a href="index.html"><i class="fa-solid fa-cart-shopping"></i>カートを見る</a></li>
         </ul>
-      </div>
         
-      <div class="contact">
-        <ul>
-          <li><a href="inquiry">お問い合わせ</a></li>
-          <li><a href="question">よくある質問</a></li>
-          <li><a href="info">店舗情報</a></li>
-        </ul>
+        <div class="contact">
+          <ul>
+            <li><a href="inquiry.html">お問い合わせ</a></li>
+            <li><a href="question.html">よくある質問</a></li>
+            <li><a href="info.html">店舗情報</a></li>
+          </ul>
+        </div>
       </div>
         
       <div class="address">
@@ -117,3 +130,4 @@
   <script src="js/main.js"></script>
 </body>
 </html>
+

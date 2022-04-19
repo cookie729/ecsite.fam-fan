@@ -1,7 +1,7 @@
 // -------------------------
-// @media min 800
+// @media min 900
 // -------------------------
-@media (min-width: 1000px) {
+@media (min-width: 900px) {
   .wrapper {
     width: 75%;
   }
@@ -28,7 +28,7 @@
     padding: 1.5px;
     & .form-text {
       width: 85%;
-    } 
+    }
   }
 
   .main-visual {
@@ -38,15 +38,18 @@
     font-size: 1.8rem;
     left: 11.5%;
     // position: absolute;
-
   }
 
-  .feature {
+  #feature-banner,
+  #sale-banner {
+    max-width: 800px;
+  }
+  #feature-banner {
     h2 {
-      font-size: 2rem;
+      font-size: 1.8rem;
     }
-    &-text-img {
-      width: 100px;
+    .feature-text-img {
+      width: 80px;
     }
   }
 
@@ -77,28 +80,26 @@
     }
   }
 
-  // .category-wrap,
-  // .ranking-wrap,
-  // .news-wrap,
-  // .footer-nav {
-  //   // width: 75%;
-  // }
+  .shop-item-wrap {
+    width: 25%;
+    max-width: 250px;
+  }
 
-  #ranking {
-    .ranking-desktop {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      width: 75%;
-      margin: {
-        left: auto;
-        right: auto;
-      }
-      & .ranking-wrap {
-        width: 45%;
-        margin: 0;
-      }
+  .ranking-desktop,
+  .feature-desktop {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: {
+      left: auto;
+      right: auto;
     }
+  }
+  .ranking-wrap,
+  .feature-wrap {
+    width: 45%;
+    margin: 0;
   }
   .ranking-main-title {
     width: 75%;

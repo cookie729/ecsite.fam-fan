@@ -170,6 +170,9 @@ a:hover {
     display: block;
     width: 200px;
     margin: 0 auto;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 

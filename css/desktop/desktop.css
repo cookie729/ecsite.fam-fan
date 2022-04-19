@@ -1,4 +1,4 @@
-@media (min-width: 1000px) {
+@media (min-width: 900px) {
   .wrapper {
     width: 75%;
   }
@@ -34,11 +34,16 @@
     left: 11.5%;
   }
 
-  .feature h2 {
-    font-size: 2rem;
+  #feature-banner,
+#sale-banner {
+    max-width: 800px;
   }
-  .feature-text-img {
-    width: 100px;
+
+  #feature-banner h2 {
+    font-size: 1.8rem;
+  }
+  #feature-banner .feature-text-img {
+    width: 80px;
   }
 
   #category .grid {
@@ -64,7 +69,13 @@
     display: block;
   }
 
-  #ranking .ranking-desktop {
+  .shop-item-wrap {
+    width: 25%;
+    max-width: 250px;
+  }
+
+  .ranking-desktop,
+.feature-desktop {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -72,7 +83,9 @@
     margin-left: auto;
     margin-right: auto;
   }
-  #ranking .ranking-desktop .ranking-wrap {
+
+  .ranking-wrap,
+.feature-wrap {
     width: 45%;
     margin: 0;
   }

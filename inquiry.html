@@ -7,8 +7,6 @@
   <link rel="shortcut icon" href="images/icon/favicon.svg">
   <title>Fam-Fan -暮らしを楽しくする家具-</title>
   <link rel="stylesheet" href="css/base/style.css">
-  <link rel="stylesheet" href="css/desktop/desktop.css">
-  <link rel="stylesheet" href="css/news-contents/news-contens.css">
   <link rel="stylesheet" href="css/news-contents/news-contents.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +15,7 @@
 
   <script src="https://kit.fontawesome.com/d0896c8887.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="inquiry-vh">
   <header id="header">
     <a href="index.html">
       <div class="header-wrap">
@@ -29,21 +27,18 @@
     <nav>
       <button class="hamburger-menu"><i class="fa-solid fa-bars"></i></button>
       <ul class="main-nav">
-        <li><a href="#"><i class="fa-solid fa-house"></i>ホーム</a></li>
-        <li><a href="fav"><i class="fa-regular fa-heart"></i>お気に入り</a></li>
-        <li><a href="cart"><i class="fa-solid fa-cart-shopping"></i>カート</a></li>
-        <li><a href="inquiry"><i class="fa-solid fa-envelope"></i>お問い合わせ</a></li>
+        <li><a href="index.html"><i class="fa-solid fa-house"></i>ホーム</a></li>
+        <li><a href="index.html"><i class="fa-solid fa-cart-shopping"></i>カート</a></li>
+        <li><a href="inquiry.html"><i class="fa-solid fa-envelope"></i>お問い合わせ</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-
     <section id="inquiry" class="wrapper">
       <h2 class="section-title">お問合わせ</h2>
 
       <form action="#">
-
         <div class="form-name form-mb">
           <label for="name">お名前</label>
           <input class="form-text text-w" type="text" id="name" name="your-name">
@@ -60,31 +55,28 @@
         </div>
 
         <input type="submit" class="button" value="送信">
-
       </form>
-
-
     </section>
 
   </main>
 
-  <footer id="footer" class="wrapper white-bg">
+  <footer id="footer" class="footer-inquiry wrapper white-bg">
     <div class="footer-nav white-bg-inner">
+      
       <div class="site-nav">
-        <ul>
-          <li><a href="#"><i class="fa-solid fa-house"></i>ホーム</a></li>
-          <li><a href="category"><i class="fa-solid fa-magnifying-glass"></i>カテゴリー一覧</a></li>
-          <li><a href="fav"><i class="fa-regular fa-heart"></i>お気に入り</a></li>
-          <li><a href="cart"><i class="fa-solid fa-cart-shopping"></i>カートを見る</a></li>
+        <ul class="footer-menu">
+          <li><a href="index.html"><i class="fa-solid fa-house"></i>ホーム</a></li>
+          <li><a href="category.html"><i class="fa-solid fa-magnifying-glass"></i>カテゴリー一覧</a></li>
+          <li><a href="index.html"><i class="fa-solid fa-cart-shopping"></i>カートを見る</a></li>
         </ul>
-      </div>
         
       <div class="contact">
         <ul>
-          <li><a href="inquiry">お問い合わせ</a></li>
-          <li><a href="question">よくある質問</a></li>
-          <li><a href="info">店舗情報</a></li>
+          <li><a href="inquiry.html">お問い合わせ</a></li>
+          <li><a href="question.html">よくある質問</a></li>
+          <li><a href="info.html">店舗情報</a></li>
         </ul>
+        </div>
       </div>
         
       <div class="address">

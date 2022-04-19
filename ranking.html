@@ -7,7 +7,7 @@
   <link rel="shortcut icon" href="images/icon/favicon.svg">
   <title>Fam-Fan -暮らしを楽しくする家具-</title>
   <link rel="stylesheet" href="css/base/style.css">
-  <link rel="stylesheet" href="css/desktop/desktop.css">
+  <!-- <link rel="stylesheet" href="css/desktop/desktop.css"> -->
   <link rel="stylesheet" href="css/shop/shop-item.css">
   <link rel="stylesheet" href="css/shop/ranking.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,26 +18,25 @@
 </head>
 <body>
   <header id="header">
+    <div class="header-wrap">
     <a href="index.html">
-      <div class="header-wrap">
         <img src="images/header/header.svg" alt="ヘッダーデザイン">
         <h1 class="site-title">Fam Fun <span>-暮らしを楽しくする家具-</span></h1>
-      </div>
-    </a>
+      </a>
+    </div>
       
     <nav>
       <button class="hamburger-menu"><i class="fa-solid fa-bars"></i></button>
       <ul class="main-nav">
-        <li><a href="#"><i class="fa-solid fa-house"></i>ホーム</a></li>
-        <li><a href="fav"><i class="fa-regular fa-heart"></i>お気に入り</a></li>
-        <li><a href="cart"><i class="fa-solid fa-cart-shopping"></i>カート</a></li>
-        <li><a href="inquiry"><i class="fa-solid fa-envelope"></i>お問い合わせ</a></li>
+        <li><a href="index.html"><i class="fa-solid fa-house"></i>ホーム</a></li>
+        <li><a href="index.html"><i class="fa-solid fa-cart-shopping"></i>カート</a></li>
+        <li><a href="inquiry.html"><i class="fa-solid fa-envelope"></i>お問い合わせ</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <div class="ranking-main-title ranking-pd">
+    <div class="ranking-main-title ranking-pt">
       <h2 class="section-title">- 月間カテゴリ別ランキング -</h2>
     </div>
     <section id="category" class="wrapper mb white-bg">
@@ -63,6 +62,7 @@
         <div id="kitchen" class="ranking-wrap">
           <h3 class="ranking-title">キッチン</h3>
           <div class="shop-item-wrap-flex">
+            
             <div class="shop-item-wrap">
               <a href="ranking.html">
                 <div class="shop-item">
@@ -72,7 +72,7 @@
                   <p class="item-details">木製カトラリーセット</p>
                   <p class="price">価格<br>
                   <span class="price-text">1200円</span> （税込）</p>
-                  <p>テキストテキストテキストテキスト<br>
+                  <p class="details-text">テキストテキストテキストテキスト<br>
                      テキストテキストテキストテキスト<br>
                   </p>
                 </div>
@@ -87,7 +87,7 @@
                   <p class="item-details">CUTE!円形まな板</p>
                   <p class="price">価格<br>
                     <span class="price-text">1150円</span> （税込）</p>
-                    <p>テキストテキストテキストテキスト<br>
+                    <p class="details-text">テキストテキストテキストテキスト<br>
                        テキストテキストテキストテキスト<br>
                     </p>
                 </div>
@@ -102,7 +102,7 @@
                   <p class="item-details">職人和包丁</p>
                   <p class="price">価格<br>
                     <span class="price-text">6500円</span> （税込）</p>
-                    <p>テキストテキストテキストテキスト<br>
+                    <p class="details-text">テキストテキストテキストテキスト<br>
                     テキストテキストテキストテキスト<br>
                     </p>
                   </div>
@@ -115,6 +115,7 @@
         <div id="table" class="ranking-wrap">
           <h3 class="ranking-title">テーブル</h3>
           <div class="shop-item-wrap-flex">
+
             <div class="shop-item-wrap">
               <a href="ranking.html">
                 <div class="shop-item">
@@ -124,7 +125,7 @@
                   <p class="item-details">木製テーブル</p>
                   <p class="price">価格<br>
                   <span class="price-text">14000円</span> （税込）</p>
-                  <p>テキストテキストテキストテキスト<br>
+                  <p class="details-text">テキストテキストテキストテキスト<br>
                      テキストテキストテキストテキスト<br>
                   </p>
                 </div>
@@ -134,12 +135,12 @@
 
             <div class="shop-item-wrap">
               <a href="ranking.html">
-                <div class="shop-item"><img class="item-img" src="images/ranking/natural-wooden-table.jpg" alt="ナチュラルウッドデスク"><img class="ranking-number" src="images/illust/crown2.svg" alt="ランキング2"></div>
+                <div class="shop-item"><img class="item-img adjustment" src="images/ranking/natural-wooden-table.jpg" alt="ナチュラルウッドデスク"><img class="ranking-number" src="images/illust/crown2.svg" alt="ランキング2"></div>
                 <div class="details-wrap">
                   <p class="item-details">ナチュラルウッドデスク</p>
                   <p class="price">価格<br>
                     <span class="price-text">17500円</span> （税込）</p>
-                    <p>テキストテキストテキストテキスト<br>
+                    <p class="details-text">テキストテキストテキストテキスト<br>
                        テキストテキストテキストテキスト<br>
                     </p>
                 </div>
@@ -155,7 +156,7 @@
                   </p>
                   <p class="price">価格<br>
                     <span class="price-text">5500円</span> （税込）</p>
-                    <p>テキストテキストテキストテキスト<br>
+                    <p class="details-text">テキストテキストテキストテキスト<br>
                     テキストテキストテキストテキスト<br>
                     </p>
                   </div>
@@ -175,7 +176,7 @@
                   <p class="item-details">木と皮のダイニングセット</p>
                   <p class="price">価格<br>
                     <span class="price-text">85000円</span> （税込）</p>
-                  <p>テキストテキストテキストテキスト<br>
+                  <p class="details-text">テキストテキストテキストテキスト<br>
                   テキストテキストテキストテキスト<br>
                   </p>
                 </div>
@@ -184,13 +185,13 @@
             </div>
 
             <div class="shop-item-wrap">
-              <a href="#">
+              <a href="ranking.html">
                 <div class="shop-item"><img class="item-img adjustment" src="images/ranking/simple-style-set.jpg" alt="スタイリッシュセット"><img class="ranking-number" src="images/illust/crown2.svg" alt="ランキング2"></div>
                 <div class="details-wrap">
                   <p class="item-details">スタイリッシュダイニングセット</p>
                   <p class="price">価格<br>
                     <span class="price-text">23000円</span> （税込）</p>
-                  <p>テキストテキストテキストテキスト<br>
+                  <p class="details-text">テキストテキストテキストテキスト<br>
                   テキストテキストテキストテキスト<br>
                   </p>
                 </div>
@@ -199,7 +200,7 @@
             </div>
 
             <div class="shop-item-wrap">
-              <a href="#">
+              <a href="ranking.html">
                 <div class="shop-item">
                   <img class="item-img adjustment" src="images/timesale/stylish-table-set.jpg" alt="プライベートテーブルセット">
                   <img class="ranking-number" src="images/illust/crown3.svg" alt="ランキング3">
@@ -209,7 +210,7 @@
                   <p class="item-details">プライベートテーブルセット</p>
                   <p class="price">価格<br>
                     <span class="price-text sale-price">40000円→30000円</span> （税込）</p>
-                  <p>テキストテキストテキストテキスト<br>
+                  <p class="details-text">テキストテキストテキストテキスト<br>
                   テキストテキストテキストテキスト<br>
                   </p>
                 </div>
@@ -224,13 +225,13 @@
           <div class="shop-item-wrap-flex">
 
             <div class="shop-item-wrap">
-              <a href="#">
+              <a href="ranking.html">
                 <div class="shop-item"><img class="item-img adjustment" src="images/ranking/check-sofa.jpg" alt="チェックソファ"><img class="ranking-number" src="images/illust/crown1.svg" alt="ランキング1"></div>
                 <div class="details-wrap">
                   <p class="item-details">CUTE!チェックソファ</p>
                   <p class="price">価格<br>
                     <span class="price-text">36000円</span> （税込）</p>
-                  <p>テキストテキストテキストテキスト<br>
+                  <p class="details-text">テキストテキストテキストテキスト<br>
                   テキストテキストテキストテキスト<br>
                   </p>
                 </div>
@@ -245,7 +246,7 @@
                   <p class="item-details">シングルソファ</p>
                   <p class="price">価格<br>
                     <span class="price-text">17000円</span> （税込）</p>
-                  <p>テキストテキストテキストテキスト<br>
+                  <p class="details-text">テキストテキストテキストテキスト<br>
                   テキストテキストテキストテキスト<br>
                   </p>
                 </div>
@@ -254,7 +255,7 @@
             </div>
 
             <div class="shop-item-wrap">
-              <a href="#">
+              <a href="ranking.html">
                 <div class="shop-item">
                   <img class="item-img adjustment" src="images/ranking/white-sofa.jpg" alt="シンプルホワイトソファ">
                   <img class="ranking-number" src="images/illust/crown3.svg" alt="ランキング3">
@@ -263,7 +264,7 @@
                   <p class="item-details">シンプルレザーソファ</p>
                   <p class="price">価格<br>
                     <span class="price-text">25000円</span> （税込）</p>
-                  <p>テキストテキストテキストテキスト<br>
+                  <p class="details-text">テキストテキストテキストテキスト<br>
                   テキストテキストテキストテキスト<br>
                   </p>
                 </div>
@@ -279,12 +280,12 @@
 
             <div class="shop-item-wrap">
               <a href="ranking.html">
-                <div class="shop-item"><img class="item-img" src="images/ranking/design-chair.jpg" alt="デザインチェアー"><img class="ranking-number" src="images/illust/crown1.svg" alt="ランキング1"></div>
+                <div class="shop-item"><img class="item-img adjustment" src="images/ranking/design-chair.jpg" alt="デザインチェアー"><img class="ranking-number" src="images/illust/crown1.svg" alt="ランキング1"></div>
                 <div class="details-wrap">
                   <p class="item-details">デザインチェアー</p>
                   <p class="price">価格<br>
                     <span class="price-text">16500円</span> （税込）</p>
-                  <p>テキストテキストテキストテキスト<br>
+                  <p class="details-text">テキストテキストテキストテキスト<br>
                   テキストテキストテキストテキスト<br>
                   </p>
                 </div>
@@ -293,13 +294,13 @@
             </div>
 
             <div class="shop-item-wrap">
-              <a href="#">
+              <a href="ranking.html">
                 <div class="shop-item"><img class="item-img adjustment" src="images/ranking/pastel-chair.jpeg" alt="パステルチェアー"><img class="ranking-number" src="images/illust/crown2.svg" alt="ランキング2"></div>
                 <div class="details-wrap">
                   <p class="item-details">CUTE!パステルチェアー各種</p>
                   <p class="price">価格<br>
                     <span class="price-text">12000円</span> （税込）</p>
-                  <p>テキストテキストテキストテキスト<br>
+                  <p class="details-text">テキストテキストテキストテキスト<br>
                   テキストテキストテキストテキスト<br>
                   </p>
                 </div>
@@ -309,7 +310,7 @@
 
 
             <div class="shop-item-wrap">
-              <a href="#">
+              <a href="ranking.html">
                 <div class="shop-item">
                   <img class="item-img adjustment" src="images/ranking/circle-chair.jpg" alt="サークルチェア">
                   <img class="ranking-number" src="images/illust/crown3.svg" alt="ランキング3">
@@ -318,7 +319,7 @@
                   <p class="item-details">サークルチェア</p>
                   <p class="price">価格<br>
                     <span class="price-text">4500円</span> （税込）</p>
-                  <p>テキストテキストテキストテキスト<br>
+                  <p class="details-text">テキストテキストテキストテキスト<br>
                   テキストテキストテキストテキスト<br>
                   </p>
                 </div>
@@ -331,14 +332,15 @@
         <div id="bed" class="ranking-wrap">
           <h3 class="ranking-title">寝具</h3>
           <div class="shop-item-wrap-flex">
+
             <div class="shop-item-wrap">
-              <a href="#">
+              <a href="ranking.html">
                 <div class="shop-item"><img class="item-img" src="images/hero/hero-bed.jpg" alt="桐のモダンベッド"><img class="ranking-number" src="images/illust/crown1.svg" alt="ランキング1"></div>
                 <div class="details-wrap">
                   <p class="item-details">桐のモダンベッド</p>
                   <p class="price">価格<br>
                     <span class="price-text">55000円</span> （税込）</p>
-                  <p>テキストテキストテキストテキスト<br>
+                  <p class="details-text">テキストテキストテキストテキスト<br>
                   テキストテキストテキストテキスト<br>
                   </p>
                 </div>
@@ -347,12 +349,12 @@
             </div>
 
             <div class="shop-item-wrap">
-              <a href="#"><div class="shop-item"><img class="item-img" src="images/ranking/wooden-double.jpg" alt="木製ダブルベッド"><img class="ranking-number" src="images/illust/crown2.svg" alt="ランキング2"></div>
+              <a href="ranking.html"><div class="shop-item"><img class="item-img" src="images/ranking/wooden-double.jpg" alt="木製ダブルベッド"><img class="ranking-number" src="images/illust/crown2.svg" alt="ランキング2"></div>
                 <div class="details-wrap">
                   <p class="item-details">木製ダブルベッド</p>
                   <p class="price">価格<br>
                     <span class="price-text">70000円</span> （税込）</p>
-                  <p>テキストテキストテキストテキスト<br>
+                  <p class="details-text">テキストテキストテキストテキスト<br>
                   テキストテキストテキストテキスト<br>
                   </p>
                 </div>
@@ -361,13 +363,13 @@
             </div>
 
             <div class="shop-item-wrap">
-              <a href="#">
+              <a href="ranking.html">
                 <div class="shop-item"><img class="item-img" src="images/ranking/slatted-bed.jpeg" alt="すのこベッド"><img class="ranking-number" src="images/illust/crown3.svg" alt="ランキング3"></div>
                 <div class="details-wrap">
                   <p class="item-details">すのこベッド</p>
                   <p class="price">価格<br>
                     <span class="price-text">25000円</span> （税込）</p>
-                  <p>テキストテキストテキストテキスト<br>
+                  <p class="details-text">テキストテキストテキストテキスト<br>
                   テキストテキストテキストテキスト<br>
                   </p>
                 </div>
@@ -381,12 +383,13 @@
         <h3 class="ranking-title">バス</h3>
         <div class="shop-item-wrap-flex">
           <div class="shop-item-wrap">
-            <a href="#"><div class="shop-item"><img class="item-img" src="images/ranking/initial-dispenser.jpg" alt="名入れディスペンサー"><img class="ranking-number" src="images/illust/crown1.svg" alt="ランキング1"></div>
+            <a href="ranking.html">
+              <div class="shop-item"><img class="item-img" src="images/ranking/initial-dispenser.jpg" alt="名入れディスペンサー"><img class="ranking-number" src="images/illust/crown1.svg" alt="ランキング1"></div>
               <div class="details-wrap">
                 <p class="item-details">名入れディスペンサー</p>
                 <p class="price">価格<br>
                   <span class="price-text">1800円</span> （税込）</p>
-                <p>テキストテキストテキストテキスト<br>
+                <p class="details-text">テキストテキストテキストテキスト<br>
                 テキストテキストテキストテキスト<br>
                 </p>
               </div>
@@ -395,13 +398,13 @@
           </div>
 
           <div class="shop-item-wrap">
-            <a href="#">
+            <a href="ranking.html">
               <div class="shop-item"><img class="item-img" src="images/ranking/shower-head.jpg" alt="水圧調整シャワーヘッド"><img class="ranking-number" src="images/illust/crown2.svg" alt="ランキング2"></div>
               <div class="details-wrap">
                 <p class="item-details">高圧シャワーヘッド</p>
                 <p class="price">価格<br>
                   <span class="price-text">5500円</span> （税込）</p>
-                <p>テキストテキストテキストテキスト<br>
+                <p class="details-text">テキストテキストテキストテキスト<br>
                 テキストテキストテキストテキスト<br>
                 </p>
               </div>
@@ -410,13 +413,13 @@
           </div>
 
           <div class="shop-item-wrap">
-            <a href="#">
+            <a href="ranking.html">
               <div class="shop-item"><img class="item-img" src="images/ranking/absorption-towel.png" alt="超吸収コットンタオル"><img class="ranking-number" src="images/illust/crown3.svg" alt="ランキング3"></div>
               <div class="details-wrap">
                 <p class="item-details">超吸収コットンタオル</p>
                 <p class="price">価格<br>
                   <span class="price-text">800円</span> （税込）</p>
-                <p>テキストテキストテキストテキスト<br>
+                <p class="details-text">テキストテキストテキストテキスト<br>
                 テキストテキストテキストテキスト<br>
                 </p>
               </div>
@@ -431,12 +434,12 @@
         <div class="shop-item-wrap-flex">
 
           <div class="shop-item-wrap">
-            <a href="#"><div class="shop-item"><img class="item-img" src="images/ranking/storage-set.jpg" alt="収納セット"><img class="ranking-number" src="images/illust/crown1.svg" alt="ランキング1"></div>
+            <a href="ranking.html"><div class="shop-item"><img class="item-img" src="images/ranking/storage-set.jpg" alt="収納セット"><img class="ranking-number" src="images/illust/crown1.svg" alt="ランキング1"></div>
               <div class="details-wrap">
                 <p class="item-details">木製収納セット</p>
                 <p class="price">価格<br>
                   <span class="price-text">13000円</span> （税込）</p>
-                <p>テキストテキストテキストテキスト<br>
+                <p class="details-text">テキストテキストテキストテキスト<br>
                 テキストテキストテキストテキスト<br>
                 </p>
               </div>
@@ -445,13 +448,13 @@
           </div>
 
           <div class="shop-item-wrap">
-            <a href="#">
+            <a href="ranking.html">
               <div class="shop-item"><img class="item-img" src="images/ranking/storage-tv.jpg" alt="ロングTVボード"><img class="ranking-number" src="images/illust/crown2.svg" alt="ランキング2"></div>
               <div class="details-wrap">
                 <p class="item-details">ロングTVボード</p>
                 <p class="price">価格<br>
                   <span class="price-text">25000円</span> （税込）</p>
-                <p>テキストテキストテキストテキスト<br>
+                <p class="details-text">テキストテキストテキストテキスト<br>
                 テキストテキストテキストテキスト<br>
                 </p>
               </div>
@@ -460,13 +463,13 @@
           </div>
 
           <div class="shop-item-wrap">
-            <a href="#">
+            <a href="ranking.html">
               <div class="shop-item"><img class="item-img" src="images/ranking/storage-single.jpg" alt="モノクロシングル収納"><img class="ranking-number" src="images/illust/crown3.svg" alt="ランキング3"></div>
               <div class="details-wrap">
                 <p class="item-details">モノクロシングル収納</p>
                 <p class="price">価格<br>
                   <span class="price-text">4800円</span> （税込）</p>
-                <p>テキストテキストテキストテキスト<br>
+                <p class="details-text">テキストテキストテキストテキスト<br>
                 テキストテキストテキストテキスト<br>
                 </p>
               </div>
@@ -481,12 +484,12 @@
         <div class="shop-item-wrap-flex">
 
           <div class="shop-item-wrap">
-            <a href="#"><div class="shop-item"><img class="item-img" src="images/ranking/illumination-japanese-style.jpg" alt="和風照明"><img class="ranking-number" src="images/illust/crown1.svg" alt="ランキング1"></div>
+            <a href="ranking.html"><div class="shop-item"><img class="item-img adjustment" src="images/ranking/illumination-japanese-style.jpg" alt="和風照明"><img class="ranking-number" src="images/illust/crown1.svg" alt="ランキング1"></div>
               <div class="details-wrap">
                 <p class="item-details">和風照明</p>
                 <p class="price">価格<br>
                   <span class="price-text">3500円</span> （税込）</p>
-                <p>テキストテキストテキストテキスト<br>
+                <p class="details-text">テキストテキストテキストテキスト<br>
                 テキストテキストテキストテキスト<br>
                 </p>
               </div>
@@ -495,13 +498,13 @@
           </div>
 
           <div class="shop-item-wrap">
-            <a href="#">
+            <a href="ranking.html">
               <div class="shop-item"><img class="item-img" src="images/ranking/illumination-design.jpg" alt="星形照明"><img class="ranking-number" src="images/illust/crown2.svg" alt="ランキング2"></div>
               <div class="details-wrap">
                 <p class="item-details">CUTE!ほしがた照明</p>
                 <p class="price">価格<br>
                   <span class="price-text">6500円</span> （税込）</p>
-                <p>テキストテキストテキストテキスト<br>
+                <p class="details-text">テキストテキストテキストテキスト<br>
                 テキストテキストテキストテキスト<br>
                 </p>
               </div>
@@ -510,13 +513,13 @@
           </div>
 
           <div class="shop-item-wrap">
-            <a href="#">
+            <a href="ranking.html">
               <div class="shop-item"><img class="item-img" src="images/ranking/illumination-calm.jpg" alt="和みランプ"><img class="ranking-number" src="images/illust/crown3.svg" alt="ランキング3"></div>
               <div class="details-wrap">
                 <p class="item-details">和みランプ</p>
                 <p class="price">価格<br>
                   <span class="price-text">2800円</span> （税込）</p>
-                <p>テキストテキストテキストテキスト<br>
+                <p class="details-text">テキストテキストテキストテキスト<br>
                 テキストテキストテキストテキスト<br>
                 </p>
               </div>
@@ -531,12 +534,12 @@
         <div class="shop-item-wrap-flex">
 
           <div class="shop-item-wrap">
-            <a href="#"><div class="shop-item"><img class="item-img" src="images/ranking/others-alarm-clock.jpg" alt="めざまし時計"><img class="ranking-number" src="images/illust/crown1.svg" alt="ランキング1"></div>
+            <a href="ranking.html"><div class="shop-item"><img class="item-img adjustment" src="images/ranking/others-alarm-clock.jpg" alt="めざまし時計"><img class="ranking-number" src="images/illust/crown1.svg" alt="ランキング1"></div>
               <div class="details-wrap">
                 <p class="item-details">めざましCLOCK</p>
                 <p class="price">価格<br>
                   <span class="price-text">1800円</span> （税込）</p>
-                <p>テキストテキストテキストテキスト<br>
+                <p class="details-text">テキストテキストテキストテキスト<br>
                 テキストテキストテキストテキスト<br>
                 </p>
               </div>
@@ -545,13 +548,13 @@
           </div>
 
           <div class="shop-item-wrap">
-            <a href="#">
+            <a href="ranking.html">
               <div class="shop-item"><img class="item-img" src="images/ranking/others-kids-desk.jpg" alt="キッズデスク"><img class="ranking-number" src="images/illust/crown2.svg" alt="ランキング2"></div>
               <div class="details-wrap">
                 <p class="item-details">CUTE!キッズデスク</p>
                 <p class="price">価格<br>
                   <span class="price-text">7700円</span> （税込）</p>
-                <p>テキストテキストテキストテキスト<br>
+                <p class="details-text">テキストテキストテキストテキスト<br>
                 テキストテキストテキストテキスト<br>
                 </p>
               </div>
@@ -560,13 +563,13 @@
           </div>
 
           <div class="shop-item-wrap">
-            <a href="#">
+            <a href="ranking.html">
               <div class="shop-item"><img class="item-img" src="images/ranking/others-pastel-clock.jpg" alt="パステルクロック"><img class="ranking-number" src="images/illust/crown3.svg" alt="ランキング3"></div>
               <div class="details-wrap">
                 <p class="item-details">CUTE!パステルクロック</p>
                 <p class="price">価格<br>
                   <span class="price-text">1450円</span> （税込）</p>
-                <p>テキストテキストテキストテキスト<br>
+                <p class="details-text">テキストテキストテキストテキスト<br>
                 テキストテキストテキストテキスト<br>
                 </p>
               </div>
@@ -612,21 +615,21 @@
 
   <footer id="footer" class="wrapper white-bg">
     <div class="footer-nav white-bg-inner">
+
       <div class="site-nav">
-        <ul>
-          <li><a href="#"><i class="fa-solid fa-house"></i>ホーム</a></li>
-          <li><a href="category"><i class="fa-solid fa-magnifying-glass"></i>カテゴリー一覧</a></li>
-          <li><a href="fav"><i class="fa-regular fa-heart"></i>お気に入り</a></li>
-          <li><a href="cart"><i class="fa-solid fa-cart-shopping"></i>カートを見る</a></li>
+        <ul class="footer-menu">
+          <li><a href="index.html"><i class="fa-solid fa-house"></i>ホーム</a></li>
+          <li><a href="category.html"><i class="fa-solid fa-magnifying-glass"></i>カテゴリー一覧</a></li>
+          <li><a href="index.html"><i class="fa-solid fa-cart-shopping"></i>カートを見る</a></li>
         </ul>
-      </div>
         
-      <div class="contact">
-        <ul>
-          <li><a href="inquiry">お問い合わせ</a></li>
-          <li><a href="question">よくある質問</a></li>
-          <li><a href="info">店舗情報</a></li>
-        </ul>
+        <div class="contact">
+          <ul>
+            <li><a href="inquiry.html">お問い合わせ</a></li>
+            <li><a href="question.html">よくある質問</a></li>
+            <li><a href="info.html">店舗情報</a></li>
+          </ul>
+        </div>
       </div>
         
       <div class="address">

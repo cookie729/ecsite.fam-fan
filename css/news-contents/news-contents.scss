@@ -4,11 +4,25 @@ $border-color: #cfcece;
 $bg-color: #fff;
 $sale-color: #eb3c10;
 
+.inquiry-vh {
+  position: relative;
+  height: 100vh;
+}
+.footer-inquiry {
+  position: absolute;
+  bottom: 0;
+}
+
+
 #news,
-#inquiry {
+#inquiry,
+#info {
   padding-top: 70px;
 }
 
+// -------------------------
+// inquiry form
+// -------------------------
 form {
   color: $main-color;
   font-family: "Noto Serif JP", serif;
@@ -27,9 +41,10 @@ label {
   display: block;
 }
 
-.form-text {
+.form-text,
+.button {
   background: rgba(255, 255, 255, .8);
-  border: solid 1px #fff;
+  border: solid 2px #fff;
   border-radius: 5px;
   font-size: 1.5rem;
 }
@@ -44,7 +59,57 @@ label {
   height: 6rem;
 }
 
-input[type="submit"] {
-  border: none;
+.button {
+  color: #b14e07;
+  border: 2px solid #dbd2cb;
   line-height:1;
+  background: $accent-color;
+  padding: 5px 10px;
+  font-size: 1rem;
+  transition-duration: .2s;
+  &:hover {
+    opacity: .7;
+    text-decoration: underline;
+    transition-duration: .2s;
+  }
+}
+
+// -------------------------
+// info
+// -------------------------
+
+#info {
+  .section-title {
+    position: relative;
+    margin-bottom: 40px;
+  }
+  .shop-name {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+  }
+  .info-map {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+// -------------------------
+// @media min 900
+// -------------------------
+@media (min-width: 900px) {
+  .info-details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+  .info-map {
+    width: 100%;
+  }
+  .address-wrap {
+    width: 400px;
+  }
+  #info .shop-name {
+    margin-bottom: 40px;
+  }
 }
