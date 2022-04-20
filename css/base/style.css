@@ -101,13 +101,21 @@ a:hover .arrow-animation {
   z-index: 100;
 }
 #header img {
-  width: 180px;
+  width: 350px;
   position: absolute;
-  bottom: 0;
+  bottom: -8.5px;
   z-index: 50;
 }
 #header span {
   font-size: 0.9rem;
+}
+
+.desktop-nav {
+  display: none;
+}
+
+.category-icon {
+  margin-right: 5px;
 }
 
 .hamburger-menu {

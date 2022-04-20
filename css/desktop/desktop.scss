@@ -2,6 +2,10 @@
 // @media min 900
 // -------------------------
 @media (min-width: 900px) {
+
+// -------------------------
+// common
+// -------------------------
   .wrapper {
     width: 75%;
   }
@@ -13,35 +17,12 @@
     }
   }
 
-  #header{
-    .header-wrap {
-      width: 75%;
-    }
-    nav {
-    display: none;
-    }
-  }
-
-
-  #search-form {
-    width: 400px;
-    padding: 1.5px;
-    & .form-text {
-      width: 85%;
-    }
-  }
-
-  .main-visual {
-    height: 400px;
-  }
-  .main-visual-text {
-    font-size: 1.8rem;
-    left: 11.5%;
-    // position: absolute;
-  }
-
+// -------------------------
+// banner
+// -------------------------
   #feature-banner,
-  #sale-banner {
+  #sale-banner,
+  #info {
     max-width: 800px;
   }
   #feature-banner {
@@ -52,7 +33,60 @@
       width: 80px;
     }
   }
+  
+// -------------------------
+// header
+// -------------------------
+  #header{
+    .header-wrap {
+      width: 75%;
+      display: flex;
+    }
+    .mobile-nav {
+    display: none;
+    }
+  }
+    
+  .desktop-nav {
+    display: block;
+    line-height: 40px;
+    font-size: .85rem;
+    li {
+      margin-left: 15px;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  .pc-nav {
+    display: flex;
+  }
 
+  #search-form {
+    width: 400px;
+    padding: 1.5px;
+    & .form-text {
+      width: 85%;
+    }
+  }
+
+
+// -------------------------
+// main-visual
+// -------------------------
+
+  .main-visual {
+    height: 400px;
+  }
+  .main-visual-text {
+    font-size: 1.8rem;
+    left: 11.5%;
+  }
+
+
+// -------------------------
+// category
+// -------------------------
   #category {
     .grid { 
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -72,6 +106,9 @@
     }
   }
 
+// -------------------------
+// shop-item
+// -------------------------
   #select,
   #sale,
   #ranking {
@@ -105,8 +142,11 @@
     width: 75%;
   }
 
+
+// -------------------------
+// sns
+// -------------------------
   #sns .fa-2x {
     font-size: 50px;
   }
 }
-

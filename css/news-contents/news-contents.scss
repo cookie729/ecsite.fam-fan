@@ -4,20 +4,40 @@ $border-color: #cfcece;
 $bg-color: #fff;
 $sale-color: #eb3c10;
 
-.inquiry-vh {
-  position: relative;
-  height: 100vh;
-}
-.footer-inquiry {
-  position: absolute;
-  bottom: 0;
-}
 
 
 #news,
 #inquiry,
-#info {
+#info,
+.category-pt {
   padding-top: 70px;
+}
+
+#feature-banner {
+  h2 {
+    font-size: 1.8rem;
+  }
+  .feature-text-img {
+    width: 80px;
+  }
+}
+
+// -------------------------
+// header
+// -------------------------
+.desktop-nav {
+  display: block;
+  line-height: 40px;
+  font-size: .85rem;
+  li {
+    margin-left: 15px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+.pc-nav {
+  display: flex;
 }
 
 // -------------------------
@@ -73,6 +93,14 @@ label {
     transition-duration: .2s;
   }
 }
+.inquiry-vh {
+  position: relative;
+  height: 100vh;
+}
+.footer-inquiry {
+  position: absolute;
+  bottom: 0;
+}
 
 // -------------------------
 // info
@@ -97,6 +125,35 @@ label {
 // @media min 900
 // -------------------------
 @media (min-width: 900px) {
+
+  .wrapper {
+    width: 75%;
+  }
+
+  .mobile-nav {
+  display: none;
+  }
+  
+  #header .header-wrap {
+    width: 75%;
+  }
+
+  #feature-banner,
+  #sale-banner {
+    max-width: 800px;
+  }
+  
+  .ranking-main-title {
+    width: 75%;
+  }
+  
+  .white-bg {
+    width: 100%;
+    &-inner {
+      width: 75%;
+    }
+  }
+
   .info-details {
     width: 100%;
     display: flex;

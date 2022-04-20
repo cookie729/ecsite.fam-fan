@@ -60,6 +60,13 @@ a:hover {
   }
 }
 
+// #category,
+// #select,
+// #news {
+//   margin-top: -100px;
+//   padding-top: 100px;
+// }
+
 // -------------------------
 // more
 // -------------------------
@@ -129,14 +136,20 @@ a:hover {
     z-index: 100;
   }
   img {
-    width: 180px;
+    width: 350px;
     position: absolute;
-    bottom: 0;
+    bottom: -8.5px;
     z-index: 50;
   }
   span {
     font-size: 0.9rem;
   }
+}
+.desktop-nav {
+  display: none;
+}
+.category-icon {
+  margin-right: 5px;
 }
 
 // -------------------------

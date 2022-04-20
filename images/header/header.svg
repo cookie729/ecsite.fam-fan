@@ -1,7 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="630" height="91" viewBox="0 0 630 91">
-  <g id="グループ_7" data-name="グループ 7" transform="translate(-44)">
-    <path id="交差_1" data-name="交差 1" d="M33.723,91a163.065,163.065,0,0,1,292.553,0Z" transform="translate(10.277)" fill="#fddfdf"/>
-    <path id="交差_2" data-name="交差 2" d="M33.723,91a163.065,163.065,0,0,1,292.553,0Z" transform="translate(536.277 91) rotate(180)" fill="#cee8ff"/>
-    <path id="交差_3" data-name="交差 3" d="M33.723,91a163.065,163.065,0,0,1,292.553,0Z" transform="translate(347.723)" fill="#ceffe5"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="268" height="40" viewBox="0 0 268 40">
+  <g id="グループ_19" data-name="グループ 19" transform="translate(-1307 80)">
+    <g id="グループ_7" data-name="グループ 7" transform="translate(1307 -73.475)">
+      <path id="交差_1" data-name="交差 1" d="M0,27a48.382,48.382,0,0,1,86.8,0Z" fill="#fddfdf"/>
+      <path id="交差_2" data-name="交差 2" d="M0,27a48.382,48.382,0,0,1,86.8,0Z" transform="translate(136.054 27) rotate(180)" fill="#cee8ff"/>
+      <path id="交差_3" data-name="交差 3" d="M0,27a48.382,48.382,0,0,1,86.8,0Z" transform="translate(100.121)" fill="#ceffe5"/>
+    </g>
+    <text id="Fam_Fun_-_暮らしを楽しくする家具_-" data-name="Fam Fun - 暮らしを楽しくする家具 -" transform="translate(1325 -80)" fill="#707070" font-size="25" font-family="Apple-Chancery, Apple Chancery"><tspan x="0" y="28">Fam Fun </tspan><tspan y="28" font-size="10">- </tspan><tspan y="28" font-size="10" font-family="HiraMinProN-W3, Hiragino Mincho ProN">暮らしを楽しくする家具</tspan><tspan y="28" xml:space="preserve" font-size="10"> -</tspan></text>
   </g>
 </svg>

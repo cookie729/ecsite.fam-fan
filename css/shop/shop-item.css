@@ -1,22 +1,3 @@
-.wrapper {
-  width: 75%;
-}
-
-#header .header-wrap {
-  width: 75%;
-}
-
-.ranking-main-title {
-  width: 75%;
-}
-
-.white-bg {
-  width: 100%;
-}
-.white-bg-inner {
-  width: 75%;
-}
-
 .border {
   border-bottom: 1px dotted #cfcece;
   margin-top: 15px;
@@ -111,15 +92,16 @@ a:hover .item-details {
 }
 
 .feature-main-visual {
-  width: 70%;
-  height: 100%;
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   position: relative;
-  margin-left: auto;
-  margin-right: auto;
+  background: #fff;
 }
 .feature-main-visual .feature-tomato-img {
-  width: 100%;
+  width: 70%;
   position: relative;
+  margin: 0 auto;
 }
 .feature-main-visual .feature-text {
   color: #fff;
@@ -145,12 +127,50 @@ a:hover .item-details {
 }
 
 @media (min-width: 900px) {
-  #header nav {
-    display: none;
+  .wrapper {
+    width: 75%;
   }
 
   .details-text {
     font-size: 0.85rem;
+  }
+
+  .desktop-nav {
+    display: block;
+    font-size: 0.85rem;
+    line-height: 40px;
+  }
+  .desktop-nav li {
+    margin-left: 15px;
+  }
+  .desktop-nav li:hover {
+    text-decoration: underline;
+  }
+
+  .pc-nav {
+    display: flex;
+  }
+  .pc-nav i {
+    line-height: 40px;
+  }
+
+  #header .header-wrap {
+    width: 75%;
+  }
+
+  .ranking-main-title {
+    width: 75%;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+  .white-bg {
+    width: 100%;
+  }
+  .white-bg-inner {
+    width: 75%;
   }
 
   #feature-banner,
@@ -158,10 +178,10 @@ a:hover .item-details {
     max-width: 800px;
   }
 
-  #feature h2 {
+  #feature-banner h2 {
     font-size: 1.8rem;
   }
-  #feature .feature-text-img {
+  #feature-banner .feature-text-img {
     width: 80px;
   }
 
