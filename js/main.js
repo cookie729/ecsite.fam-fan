@@ -1,10 +1,10 @@
 'use strict'
 
-document.getElementById('search-form').onsubmit = function(event) {
-  event.preventDefault();
-  const search = document.getElementById('search-form').word.value;
-  document.getElementById('search-output').textContent =`「${search}」の検索中・・・`;
-};
+// document.getElementById('search-form').onsubmit = function(event) {
+//   event.preventDefault();
+//   const search = document.getElementById('search-form').word.value;
+//   document.getElementById('search-output').textContent =`「${search}」の検索中・・・`;
+// };
 
 const btn = document.querySelector('.hamburger-menu');
 const nav = document.querySelector('.main-nav');

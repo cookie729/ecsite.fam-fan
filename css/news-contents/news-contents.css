@@ -1,5 +1,5 @@
 #news,
-#inquiry,
+#question #inquiry,
 #info,
 .category-pt {
   padding-top: 70px;
@@ -10,22 +10,6 @@
 }
 #feature-banner .feature-text-img {
   width: 80px;
-}
-
-.desktop-nav {
-  display: block;
-  line-height: 40px;
-  font-size: 0.85rem;
-}
-.desktop-nav li {
-  margin-left: 15px;
-}
-.desktop-nav li:hover {
-  text-decoration: underline;
-}
-
-.pc-nav {
-  display: flex;
 }
 
 form {
@@ -105,6 +89,22 @@ label {
 @media (min-width: 900px) {
   .wrapper {
     width: 75%;
+  }
+
+  .desktop-nav {
+    display: block;
+    line-height: 40px;
+    font-size: 0.85rem;
+  }
+  .desktop-nav li {
+    margin-left: 15px;
+  }
+  .desktop-nav li:hover {
+    text-decoration: underline;
+  }
+
+  .pc-nav {
+    display: flex;
   }
 
   .mobile-nav {

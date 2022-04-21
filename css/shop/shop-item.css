@@ -7,7 +7,8 @@
 #select,
 #sale,
 .ranking-pt,
-#feature {
+#feature,
+#category-item {
   padding-top: 70px;
 }
 
@@ -22,6 +23,7 @@
 .shop-item-wrap {
   width: 100%;
   border: none;
+  margin-bottom: 30px;
 }
 
 .shop-item-wrap-desk-top {
@@ -35,7 +37,6 @@
 .shop-item {
   position: relative;
   width: 30%;
-  border: 1px solid #707070;
 }
 
 .details-text {
@@ -188,10 +189,11 @@ a:hover .item-details {
   .shop-item-wrap-flex {
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   .shop-item-wrap {
-    width: 50%;
+    width: 48.5%;
   }
 
   #feature .feature-text {

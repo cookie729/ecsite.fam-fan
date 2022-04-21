@@ -325,7 +325,6 @@ a:hover .arrow-animation {
 .category-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  border: 0.5px solid #cfcece;
 }
 .category-grid a {
   display: flex;
@@ -357,7 +356,16 @@ a:hover .arrow-animation {
   margin-right: 10%;
 }
 .category-grid-item {
-  border: 0.5px solid #cfcece;
+  border-bottom: 0.5px solid #cfcece;
+}
+.category-grid-item:nth-child(odd) {
+  border-right: 0.5px solid #cfcece;
+}
+.category-grid-item:nth-child(9) {
+  border-bottom: none;
+}
+.category-grid-item:nth-child(10) {
+  border-bottom: none;
 }
 
 #select,
@@ -369,7 +377,8 @@ a:hover .arrow-animation {
 .shop-item-wrap {
   position: relative;
   width: 30%;
-  border: 1px solid #707070;
+  margin-bottom: 5px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
   overflow: hidden;
 }
 .shop-item-wrap:hover {
@@ -403,7 +412,6 @@ a:hover .arrow-animation {
 
 .shop-item {
   overflow: hidden;
-  border-bottom: 1px solid #707070;
 }
 .shop-item .adjustment {
   -o-object-position: bottom;
