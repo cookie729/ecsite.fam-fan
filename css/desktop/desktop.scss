@@ -1,5 +1,18 @@
 // -------------------------
-// @media min 900
+// @media min 650
+// -------------------------
+@media (min-width: 650px) {
+  #feature-banner {
+    h2 {
+      font-size: 1.5rem;
+    }
+    .feature-text-img {
+      width: 70px;
+    }
+  }
+}
+// -------------------------
+// @media min 1000
 // -------------------------
 @media (min-width: 1000px) {
 
@@ -20,11 +33,6 @@
 // -------------------------
 // banner
 // -------------------------
-  #feature-banner,
-  #sale-banner,
-  #info {
-    max-width: 800px;
-  }
   #feature-banner {
     h2 {
       font-size: 1.8rem;
@@ -33,6 +41,7 @@
       width: 80px;
     }
   }
+
   
 // -------------------------
 // header
