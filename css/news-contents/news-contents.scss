@@ -4,7 +4,19 @@ $border-color: #cfcece;
 $bg-color: #fff;
 $sale-color: #eb3c10;
 
-
+// -------------------------
+// @media min 650
+// -------------------------
+@media (min-width: 650px) {
+  #feature-banner {
+    h2 {
+      font-size: 1.5rem;
+    }
+    .feature-text-img {
+      width: 70px;
+    }
+  }
+}
 
 #news,
 #question,
@@ -14,14 +26,7 @@ $sale-color: #eb3c10;
   padding-top: 70px;
 }
 
-#feature-banner {
-  h2 {
-    font-size: 1.8rem;
-  }
-  .feature-text-img {
-    width: 80px;
-  }
-}
+
 
 
 
@@ -107,15 +112,15 @@ label {
 }
 
 // -------------------------
-// @media min 900
+// @media min 1000
 // -------------------------
-@media (min-width: 900px) {
+@media (min-width: 1000px) {
 
   .wrapper {
     width: 75%;
   }
 
-  // -------------------------
+// -------------------------
 // header
 // -------------------------
 .desktop-nav {
@@ -141,13 +146,12 @@ label {
     width: 75%;
   }
 
+// -------------------------
+// banner
+// -------------------------
   #feature-banner,
   #sale-banner {
     max-width: 800px;
-  }
-  
-  .ranking-main-title {
-    width: 75%;
   }
   
   .white-bg {
@@ -173,3 +177,21 @@ label {
     margin-bottom: 40px;
   }
 }
+
+
+  // -------------------------
+  // min-width 650
+  // -------------------------
+  @media (min-width: 650px) {
+    // -------------------------
+    // feature
+    // -------------------------
+    #feature-banner {
+      h2 {
+        font-size: 1.8rem;
+      }
+      .feature-text-img {
+        width: 80px;
+      }
+    }
+  }

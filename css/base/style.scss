@@ -164,6 +164,7 @@ a:hover {
   padding: .5rem 0;
   z-index: 100;
 }
+
 .main-nav {
   background: #f2f4cf;
   width: 0;
@@ -187,6 +188,19 @@ a:hover {
     &:hover {
       text-decoration: underline;
     }
+  }
+}
+
+.portfolio {
+  position: relative;
+  width: 100%;
+  padding-left: 20px; 
+  &-icon {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 7px;
+    top: -3px;
   }
 }
 
@@ -524,11 +538,11 @@ a:hover {
 // -------------------------
 // news
 // -------------------------
-#news {
+#news,
+#question {
   .section-title {
     margin-bottom: 20px;
   }
-  // background: $bg-color;
   & li {
     border-bottom: 1px solid #cac9c9;
     padding: {
