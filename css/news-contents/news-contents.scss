@@ -5,15 +5,151 @@ $bg-color: #fff;
 $sale-color: #eb3c10;
 
 // -------------------------
+// max 450
+// -------------------------
+
+@media (max-width: 450px) {
+  // -------------------------
+  // Common
+  // -------------------------
+  .section-title {
+    font-size: 1.1rem;
+  }
+  
+  // -------------------------
+  // more
+  // -------------------------
+  .more {
+    font-size: .8rem;
+    width: 130px;
+    margin: 10px -55px 0 auto;
+  }
+
+  // -------------------------
+  // header
+  // -------------------------
+  #header {
+    position: fixed;
+    img {
+    width: 250px;
+    bottom: -6px;
+    }
+  }
+
+  // -------------------------
+  // hamburger menu
+  // -------------------------
+  .hamburger-menu {
+    right: 13.5%;
+  }
+
+  .portfolio-icon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 15px;
+    top: .5px;
+  }
+
+  // ------------------------
+  // main-visual
+  // ------------------------
+  .main-visual-text {
+    font-size: 1rem;
+  }
+  
+  // ------------------------
+  // feature
+  // ------------------------
+  .feature-text {
+    font-size: .8rem;
+    &-img {
+      width: 45px;
+    }
+  }
+
+  // ------------------------
+  // category
+  // ------------------------
+  .category-grid {
+    p {
+      font-size: .75rem;
+    }
+    img {
+      width: 15px;
+    }
+  }
+
+  // -------------------------
+  // info
+  // -------------------------
+  #info-banner {
+    .section-title {
+      top: 10px;
+    }
+  }
+  .info-text {
+    font-size: .8rem;
+    width: 100px;
+    bottom: 5px;
+    right: 0;
+  }
+
+  // -------------------------
+  // news
+  // -------------------------
+  .news-wrap li {
+    font-size: .8rem;
+  }
+
+// -------------------------
+// footer
+// -------------------------
+#footer {
+  padding-bottom: 0;
+  .site-nav {
+    & i {
+      margin-right: 5px;
+    }
+  }
+}
+.footer-nav {
+  font-size: .8rem;
+}
+
+#copy {
+  font-size: .6rem;
+}
+
+.address {
+    margin-bottom: 10px;
+    &-item {
+      margin-right: 15px;
+    }
+    & p {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+// -------------------------
 // @media min 650
 // -------------------------
 @media (min-width: 650px) {
+  // #feature-banner {
+  //   h2 {
+  //     font-size: 1.5rem;
+  //   }
+  //   .feature-text-img {
+  //     width: 70px;
+  //   }
+  // }
   #feature-banner {
     h2 {
-      font-size: 1.5rem;
+      font-size: 1.8rem;
     }
     .feature-text-img {
-      width: 70px;
+      width: 80px;
     }
   }
 }
@@ -25,7 +161,6 @@ $sale-color: #eb3c10;
 .category-pt {
   padding-top: 70px;
 }
-
 
 
 
@@ -138,9 +273,9 @@ label {
   display: flex;
 }
 
-  .mobile-nav {
-  display: none;
-  }
+.mobile-nav {
+display: none;
+}
   
   #header .header-wrap {
     width: 75%;
@@ -179,19 +314,3 @@ label {
 }
 
 
-  // -------------------------
-  // min-width 650
-  // -------------------------
-  @media (min-width: 650px) {
-    // -------------------------
-    // feature
-    // -------------------------
-    #feature-banner {
-      h2 {
-        font-size: 1.8rem;
-      }
-      .feature-text-img {
-        width: 80px;
-      }
-    }
-  }

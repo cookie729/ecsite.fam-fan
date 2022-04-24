@@ -344,27 +344,6 @@ a:hover .arrow-animation {
   right: 8%;
 }
 
-#info-banner {
-  position: relative;
-}
-#info-banner .section-title {
-  position: absolute;
-  top: 20px;
-}
-
-.info-text {
-  width: 120px;
-  color: #fff;
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  z-index: 50;
-}
-
-.info-img {
-  position: relative;
-}
-
 #category {
   padding-bottom: 30px;
   margin-bottom: 30px;
@@ -521,6 +500,27 @@ a:hover .arrow-animation {
   width: 50px;
   position: absolute;
   right: 0;
+}
+
+#info-banner {
+  position: relative;
+}
+#info-banner .section-title {
+  position: absolute;
+  top: 20px;
+}
+
+.info-text {
+  width: 120px;
+  color: #fff;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 50;
+}
+
+.info-img {
+  position: relative;
 }
 
 #news .section-title,
