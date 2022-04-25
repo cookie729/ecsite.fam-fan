@@ -12,73 +12,73 @@ $sale-color: #eb3c10;
   // -------------------------
   // Common
   // -------------------------
-  .section-title {
-    font-size: 1.1rem;
-  }
+  // .section-title {
+  //   font-size: 1.1rem;
+  // }
   
-  // -------------------------
-  // more
-  // -------------------------
-  .more {
-    font-size: .8rem;
-    width: 130px;
-    margin: 10px -55px 0 auto;
-  }
+  // // -------------------------
+  // // more
+  // // -------------------------
+  // .more {
+  //   font-size: .8rem;
+  //   width: 130px;
+  //   margin: 10px -55px 0 auto;
+  // }
 
-  // -------------------------
-  // header
-  // -------------------------
-  #header {
-    position: fixed;
-    img {
-    width: 250px;
-    bottom: -6px;
-    }
-  }
+  // // -------------------------
+  // // header
+  // // -------------------------
+  // #header {
+  //   position: fixed;
+  //   img {
+  //   width: 250px;
+  //   bottom: -6px;
+  //   }
+  // }
 
-  // -------------------------
-  // hamburger menu
-  // -------------------------
-  .hamburger-menu {
-    right: 13.5%;
-  }
+  // // -------------------------
+  // // hamburger menu
+  // // -------------------------
+  // .hamburger-menu {
+  //   right: 13.5%;
+  // }
 
-  .portfolio-icon {
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    left: 15px;
-    top: .5px;
-  }
+  // .portfolio-icon {
+  //   width: 20px;
+  //   height: 20px;
+  //   position: absolute;
+  //   left: 15px;
+  //   top: .5px;
+  // }
 
   // ------------------------
   // main-visual
   // ------------------------
-  .main-visual-text {
-    font-size: 1rem;
-  }
+  // .main-visual-text {
+  //   font-size: 1rem;
+  // }
   
   // ------------------------
   // feature
   // ------------------------
   .feature-text {
     font-size: .8rem;
-    &-img {
-      width: 45px;
-    }
+    // &-img {
+    //   width: 45px;
+    // }
   }
 
   // ------------------------
   // category
   // ------------------------
-  .category-grid {
-    p {
-      font-size: .75rem;
-    }
-    img {
-      width: 15px;
-    }
-  }
+  // .category-grid {
+  //   p {
+  //     font-size: .75rem;
+  //   }
+  //   img {
+  //     width: 15px;
+  //   }
+  // }
 
   // -------------------------
   // info
@@ -102,34 +102,34 @@ $sale-color: #eb3c10;
     font-size: .8rem;
   }
 
-// -------------------------
-// footer
-// -------------------------
-#footer {
-  padding-bottom: 0;
-  .site-nav {
-    & i {
-      margin-right: 5px;
-    }
-  }
-}
-.footer-nav {
-  font-size: .8rem;
-}
+// // -------------------------
+// // footer
+// // -------------------------
+// #footer {
+//   padding-bottom: 0;
+//   .site-nav {
+//     & i {
+//       margin-right: 5px;
+//     }
+//   }
+// }
+// .footer-nav {
+//   font-size: .8rem;
+// }
 
-#copy {
-  font-size: .6rem;
-}
+// #copy {
+//   font-size: .6rem;
+// }
 
-.address {
-    margin-bottom: 10px;
-    &-item {
-      margin-right: 15px;
-    }
-    & p {
-      margin-bottom: 10px;
-    }
-  }
+// .address {
+//     margin-bottom: 10px;
+//     &-item {
+//       margin-right: 15px;
+//     }
+//     & p {
+//       margin-bottom: 10px;
+//     }
+//   }
 }
 
 // -------------------------
@@ -144,14 +144,14 @@ $sale-color: #eb3c10;
   //     width: 70px;
   //   }
   // }
-  #feature-banner {
-    h2 {
-      font-size: 1.8rem;
-    }
-    .feature-text-img {
-      width: 80px;
-    }
-  }
+  // #feature-banner {
+  //   h2 {
+  //     font-size: 1.8rem;
+  //   }
+  //   .feature-text-img {
+  //     width: 80px;
+  //   }
+  // }
 }
 
 #news,
@@ -251,50 +251,50 @@ label {
 // -------------------------
 @media (min-width: 1000px) {
 
-  .wrapper {
-    width: 75%;
-  }
+  // .wrapper {
+  //   width: 75%;
+  // }
 
-// -------------------------
-// header
-// -------------------------
-.desktop-nav {
-  display: block;
-  line-height: 40px;
-  font-size: .85rem;
-  li {
-    margin-left: 15px;
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-}
-.pc-nav {
-  display: flex;
-}
+// // -------------------------
+// // header
+// // -------------------------
+// .desktop-nav {
+//   display: block;
+//   line-height: 40px;
+//   font-size: .85rem;
+//   li {
+//     margin-left: 15px;
+//     &:hover {
+//       text-decoration: underline;
+//     }
+//   }
+// }
+// .pc-nav {
+//   display: flex;
+// }
 
-.mobile-nav {
-display: none;
-}
+// .mobile-nav {
+// display: none;
+// }
   
-  #header .header-wrap {
-    width: 75%;
-  }
+//   #header .header-wrap {
+//     width: 75%;
+//   }
 
 // -------------------------
 // banner
 // -------------------------
-  #feature-banner,
-  #sale-banner {
-    max-width: 800px;
-  }
+  // #feature-banner,
+  // #sale-banner {
+  //   max-width: 800px;
+  // }
   
-  .white-bg {
-    width: 100%;
-    &-inner {
-      width: 75%;
-    }
-  }
+  // .white-bg {
+  //   width: 100%;
+  //   &-inner {
+  //     width: 75%;
+  //   }
+  // }
 
   .info-details {
     width: 100%;

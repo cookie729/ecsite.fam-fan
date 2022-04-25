@@ -9,26 +9,6 @@
     margin: 10px -55px 0 auto;
   }
 
-  #header {
-    position: fixed;
-  }
-  #header img {
-    width: 250px;
-    bottom: -6px;
-  }
-
-  .hamburger-menu {
-    right: 13.5%;
-  }
-
-  .portfolio-icon {
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    left: 15px;
-    top: 0.5px;
-  }
-
   .main-visual-text {
     font-size: 1rem;
   }

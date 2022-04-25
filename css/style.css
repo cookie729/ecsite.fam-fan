@@ -472,4 +472,420 @@ a:hover .arrow-animation {
   margin-bottom: 10px;
   color: #2f9eff;
 }
+
+#header {
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  background: #fffbcc;
+  z-index: 100;
+}
+#header .header-wrap {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+#header .site-title {
+  font-size: 2rem;
+  position: relative;
+  bottom: 0px;
+  left: 10px;
+  z-index: 100;
+}
+#header img {
+  width: 350px;
+  position: absolute;
+  bottom: -8.5px;
+  z-index: 50;
+}
+#header span {
+  font-size: 0.9rem;
+}
+
+.desktop-nav {
+  display: none;
+}
+
+.category-icon {
+  margin-right: 5px;
+}
+
+.hamburger-menu {
+  position: absolute;
+  top: 5px;
+  right: 7.5%;
+  color: #707070;
+  padding: 0.5rem 0;
+  z-index: 100;
+}
+
+.main-nav {
+  background: #f2f4cf;
+  width: 0;
+  position: absolute;
+  z-index: 50;
+  top: 40px;
+  right: 0;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.main-nav.open-menu {
+  width: 100%;
+}
+.main-nav li {
+  margin: 2rem 0;
+  text-align: center;
+}
+.main-nav a {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+}
+.main-nav a:hover {
+  text-decoration: underline;
+}
+
+.portfolio {
+  position: relative;
+  width: 100%;
+  padding-left: 20px;
+}
+.portfolio-icon {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 7px;
+  top: -3px;
+}
+
+#footer {
+  padding-bottom: 0;
+}
+#footer .site-nav {
+  display: flex;
+  margin-bottom: 30px;
+  margin-right: 15%;
+}
+#footer .site-nav i {
+  margin-right: 8px;
+}
+#footer .footer-menu {
+  margin-right: 20%;
+}
+#footer .contact {
+  text-align: left;
+}
+
+#copy {
+  font-size: 0.85rem;
+  text-align: center;
+  background: #fffbcc;
+  padding: 10px;
+}
+#copy span {
+  font-size: 0.6rem;
+}
+
+.address {
+  margin-bottom: 10px;
+}
+.address-wrap {
+  display: flex;
+}
+.address-item {
+  margin-right: 25px;
+}
+.address p {
+  margin-bottom: 15px;
+}
+
+.footer-nav {
+  margin-top: 25px;
+}
+.footer-nav li {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 450px) {
+  .section-title {
+    font-size: 1.1rem;
+  }
+
+  .main-visual-text {
+    font-size: 1rem;
+  }
+
+  .feature-text-img {
+    width: 45px;
+  }
+
+  .category-grid p {
+    font-size: 0.75rem;
+  }
+  .category-grid img {
+    width: 15px;
+  }
+
+  #header {
+    position: fixed;
+  }
+  #header img {
+    width: 250px;
+    bottom: -6px;
+  }
+
+  .hamburger-menu {
+    right: 13.5%;
+  }
+
+  .portfolio-icon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 15px;
+    top: 0.5px;
+  }
+
+  #footer {
+    padding-bottom: 0;
+  }
+  #footer .site-nav i {
+    margin-right: 5px;
+  }
+
+  .footer-nav {
+    font-size: 0.8rem;
+  }
+
+  #copy {
+    font-size: 0.6rem;
+  }
+
+  .address {
+    margin-bottom: 10px;
+  }
+  .address-item {
+    margin-right: 15px;
+  }
+  .address p {
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 1000px) {
+  .wrapper {
+    width: 75%;
+  }
+
+  #header .header-wrap {
+    width: 75%;
+    display: flex;
+  }
+  #header .mobile-nav {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: block;
+    line-height: 40px;
+    font-size: 0.85rem;
+  }
+  .desktop-nav li {
+    margin-left: 15px;
+  }
+  .desktop-nav li:hover {
+    text-decoration: underline;
+  }
+
+  .pc-nav {
+    display: flex;
+  }
+  .pc-nav i {
+    line-height: 40px;
+  }
+
+  #search-form {
+    width: 400px;
+    padding: 1.5px;
+  }
+  #search-form .form-text {
+    width: 85%;
+  }
+
+  .ranking-main-title {
+    width: 75%;
+  }
+
+  .white-bg {
+    width: 100%;
+  }
+  .white-bg-inner {
+    width: 75%;
+  }
+
+  #feature-banner,
+#sale-banner {
+    max-width: 800px;
+  }
+
+  #feature-banner h2 {
+    font-size: 1.8rem;
+  }
+  #feature-banner .feature-text-img {
+    width: 80px;
+  }
+
+  .category-grid p {
+    font-size: 1.1rem;
+  }
+  .category-grid img {
+    width: 25px;
+  }
+}
+@media (min-width: 650px) {
+  #feature-banner h2 {
+    font-size: 1.5rem;
+  }
+  #feature-banner .feature-text-img {
+    width: 70px;
+  }
+}
+@media (min-width: 1000px) {
+  #feature-banner h2 {
+    font-size: 1.8rem;
+  }
+  #feature-banner .feature-text-img {
+    width: 80px;
+  }
+
+  .main-visual {
+    height: 400px;
+  }
+
+  .main-visual-text {
+    font-size: 1.8rem;
+    left: 11.5%;
+  }
+
+  #category .grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  #category .grid img {
+    margin-left: 10%;
+    margin-right: 5%;
+  }
+  #category .grid i {
+    margin-right: 10%;
+  }
+  #category .grid a {
+    padding: 15px 0;
+  }
+  #category .grid a:hover i {
+    margin-right: 10%;
+  }
+
+  #select .shop-item-wrap-desk-top,
+#sale .shop-item-wrap-desk-top,
+#ranking .shop-item-wrap-desk-top {
+    display: block;
+  }
+
+  .shop-item-wrap {
+    width: 18%;
+    max-width: 250px;
+  }
+
+  .ranking-wrap .shop-item-wrap {
+    width: 30%;
+    max-width: 250px;
+  }
+
+  .ranking-desktop,
+.feature-desktop {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .ranking-wrap {
+    width: 47%;
+    margin: 0;
+  }
+
+  .ranking-main-title {
+    width: 75%;
+  }
+
+  #sns .fa-2x {
+    font-size: 50px;
+  }
+}
+@media (max-width: 450px) {
+  .section-title {
+    font-size: 1.1rem;
+  }
+
+  .more {
+    font-size: 0.8rem;
+    width: 130px;
+    margin: 10px -55px 0 auto;
+  }
+
+  .main-visual-text {
+    font-size: 1rem;
+  }
+
+  .feature-text {
+    font-size: 0.8rem;
+  }
+  .feature-text-img {
+    width: 45px;
+  }
+
+  .category-grid p {
+    font-size: 0.75rem;
+  }
+  .category-grid img {
+    width: 15px;
+  }
+
+  .item-details {
+    font-size: 0.7rem;
+    height: 3.5rem;
+  }
+
+  .sub-title {
+    font-size: 0.8rem;
+  }
+
+  .ranking-title {
+    font-size: 1rem;
+  }
+
+  #info-banner .section-title {
+    top: 10px;
+  }
+
+  .info-text {
+    font-size: 0.8rem;
+    width: 100px;
+    bottom: 5px;
+    right: 0;
+  }
+
+  .news-wrap li {
+    font-size: 0.8rem;
+  }
+
+  .sns-wrap .sns-icon {
+    font-size: 28px;
+  }
+
+  .sns-item {
+    font-size: 0.8rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */

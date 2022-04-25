@@ -19,33 +19,33 @@
     margin: 10px -55px 0 auto;
   }
   
-  // -------------------------
-  // header
-  // -------------------------
+  // // -------------------------
+  // // header
+  // // -------------------------
 
-  #header {
-    position: fixed;
-    img {
-    width: 250px;
-    bottom: -6px;
-    }
-  }
+  // #header {
+  //   position: fixed;
+  //   img {
+  //   width: 250px;
+  //   bottom: -6px;
+  //   }
+  // }
 
 
-  // -------------------------
-  // hamburger menu
-  // -------------------------
-  .hamburger-menu {
-    right: 13.5%;
-  }
+  // // -------------------------
+  // // hamburger menu
+  // // -------------------------
+  // .hamburger-menu {
+  //   right: 13.5%;
+  // }
 
-  .portfolio-icon {
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    left: 15px;
-    top: .5px;
-  }
+  // .portfolio-icon {
+  //   width: 20px;
+  //   height: 20px;
+  //   position: absolute;
+  //   left: 15px;
+  //   top: .5px;
+  // }
 
 
 
@@ -135,32 +135,32 @@
   }
 
 
-// -------------------------
-// footer
-// -------------------------
-#footer {
-  padding-bottom: 0;
-  .site-nav {
-    & i {
-      margin-right: 5px;
-    }
-  }
-}
-.footer-nav {
-  font-size: .8rem;
-}
+// // -------------------------
+// // footer
+// // -------------------------
+// #footer {
+//   padding-bottom: 0;
+//   .site-nav {
+//     & i {
+//       margin-right: 5px;
+//     }
+//   }
+// }
+// .footer-nav {
+//   font-size: .8rem;
+// }
 
-#copy {
-  font-size: .6rem;
-}
+// #copy {
+//   font-size: .6rem;
+// }
 
-.address {
-    margin-bottom: 10px;
-    &-item {
-      margin-right: 15px;
-    }
-    & p {
-      margin-bottom: 10px;
-    }
-  }
+// .address {
+//     margin-bottom: 10px;
+//     &-item {
+//       margin-right: 15px;
+//     }
+//     & p {
+//       margin-bottom: 10px;
+//     }
+//   }
 }

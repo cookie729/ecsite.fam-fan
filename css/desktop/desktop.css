@@ -7,54 +7,11 @@
   }
 }
 @media (min-width: 1000px) {
-  .wrapper {
-    width: 75%;
-  }
-
-  .white-bg {
-    width: 100%;
-  }
-  .white-bg-inner {
-    width: 75%;
-  }
-
   #feature-banner h2 {
     font-size: 1.8rem;
   }
   #feature-banner .feature-text-img {
     width: 80px;
-  }
-
-  #header .header-wrap {
-    width: 75%;
-    display: flex;
-  }
-  #header .mobile-nav {
-    display: none;
-  }
-
-  .desktop-nav {
-    display: block;
-    line-height: 40px;
-    font-size: 0.85rem;
-  }
-  .desktop-nav li {
-    margin-left: 15px;
-  }
-  .desktop-nav li:hover {
-    text-decoration: underline;
-  }
-
-  .pc-nav {
-    display: flex;
-  }
-
-  #search-form {
-    width: 400px;
-    padding: 1.5px;
-  }
-  #search-form .form-text {
-    width: 85%;
   }
 
   .main-visual {

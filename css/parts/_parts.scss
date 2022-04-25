@@ -1,0 +1,337 @@
+$accent-color: #fffbcc;
+$main-color: #707070;
+$border-color: #cfcece;
+$bg-color: #fff;
+$sale-color: #eb3c10;
+
+// -------------------------
+// header
+// -------------------------
+#header {
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  background: $accent-color;
+  z-index: 100;
+  .header-wrap {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .site-title{
+    font-size: 2rem;
+    position: relative;
+    bottom: 0px;
+    left: 10px;
+    z-index: 100;
+  }
+  img {
+    width: 350px;
+    position: absolute;
+    bottom: -8.5px;
+    z-index: 50;
+  }
+  span {
+    font-size: 0.9rem;
+  }
+}
+.desktop-nav {
+  display: none;
+}
+.category-icon {
+  margin-right: 5px;
+}
+
+// -------------------------
+// hamburger-menu
+// -------------------------
+.hamburger-menu {
+  position: absolute;
+  top: 5px;
+  right: 7.5%;
+  color: $main-color;
+  padding: .5rem 0;
+  z-index: 100;
+}
+
+.main-nav {
+  background: #f2f4cf;
+  width: 0;
+  position: absolute;
+  z-index: 50;
+  top: 40px;
+  right: 0;
+  overflow: hidden;
+  transition: .5s;
+  &.open-menu {
+    width: 100%;
+  }
+  li {
+    margin: 2rem 0;
+    text-align: center;
+  }
+  a {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.portfolio {
+  position: relative;
+  width: 100%;
+  padding-left: 20px; 
+  &-icon {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 7px;
+    top: -3px;
+  }
+}
+
+// -------------------------
+// footer
+// -------------------------
+#footer {
+  padding-bottom: 0;
+  .site-nav {
+    display: flex;
+    margin: {
+      bottom: 30px;
+      right: 15%;
+    }
+    & i {
+      margin-right: 8px;
+    }
+  }
+  .footer-menu {
+    margin-right: 20%;
+  }
+  .contact {
+    text-align: left;
+  }
+}
+
+#copy {
+  font-size: .85rem;
+  text-align: center;
+  background: $accent-color;
+  padding: 10px;
+  & span {
+    font-size: .6rem;
+  }
+}
+
+.address {
+    margin-bottom: 10px;
+    &-wrap {
+      display: flex;
+    }
+    &-item {
+      margin-right: 25px;
+    }
+    & p {
+      margin-bottom: 15px;
+    }
+  }
+.footer-nav {
+  margin-top: 25px;
+  & li {
+    margin-bottom: 10px;
+  }
+}
+
+// -------------------------
+// max 450
+// -------------------------
+@media (max-width: 450px) {
+
+  // -------------------------
+  // Common
+  // -------------------------
+  .section-title {
+    font-size: 1.1rem;
+  }
+
+  // ------------------------
+  // main-visual
+  // ------------------------
+  .main-visual-text {
+    font-size: 1rem;
+  }
+   // ------------------------
+  // feature
+  // ------------------------
+  .feature-text-img {
+    width: 45px;
+  }
+
+  // ------------------------
+  // category
+  // ------------------------
+  .category-grid {
+    p {
+      font-size: .75rem;
+    }
+    img {
+      width: 15px;
+    }
+  }
+
+
+  // -------------------------
+  // header
+  // -------------------------
+  #header {
+    position: fixed;
+    img {
+    width: 250px;
+    bottom: -6px;
+    }
+  }
+
+  // -------------------------
+  // hamburger menu
+  // -------------------------
+  .hamburger-menu {
+    right: 13.5%;
+  }
+
+  .portfolio-icon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 15px;
+    top: .5px;
+  }
+
+  // -------------------------
+  // footer
+  // -------------------------
+  #footer {
+    padding-bottom: 0;
+    .site-nav {
+      & i {
+        margin-right: 5px;
+      }
+    }
+  }
+  .footer-nav {
+    font-size: .8rem;
+  }
+  
+  #copy {
+    font-size: .6rem;
+  }
+
+  .address {
+    margin-bottom: 10px;
+    &-item {
+      margin-right: 15px;
+    }
+    & p {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+// -------------------------
+// @media min 1000
+// -------------------------
+@media (min-width: 1000px) {
+// -------------------------
+// common
+// -------------------------
+.wrapper {
+  width: 75%;
+}
+
+// -------------------------
+// header
+// -------------------------
+  #header{
+    .header-wrap {
+      width: 75%;
+      display: flex;
+    }
+    .mobile-nav {
+    display: none;
+    }
+  }
+  
+  .desktop-nav {
+    display: block;
+    line-height: 40px;
+    font-size: .85rem;
+    li {
+      margin-left: 15px;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .pc-nav {
+    display: flex;
+    i {
+      line-height: 40px;
+      }
+  }
+
+  #search-form {
+    width: 400px;
+    padding: 1.5px;
+    & .form-text {
+      width: 85%;
+    }
+  }
+  .ranking-main-title {
+    width: 75%;
+  }
+
+   // -------------------------
+  // white-bg
+  // -------------------------
+  .white-bg {
+    width: 100%;
+    &-inner {
+      width: 75%;
+    }
+  }
+
+// -------------------------
+// white-bg
+// -------------------------
+  #feature-banner,
+  #sale-banner {
+    max-width: 800px;
+  }
+  #feature-banner {
+    h2 {
+      font-size: 1.8rem;
+    }
+    .feature-text-img {
+      width: 80px;
+    }
+  } 
+
+  // ------------------------
+  // category
+  // ------------------------
+  .category-grid {
+    p {
+      font-size: 1.1rem;
+    }
+    img {
+      width: 25px;
+    }
+  }
+
+
+
+}

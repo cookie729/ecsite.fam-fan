@@ -129,44 +129,44 @@ a {
   // -------------------------
   // Common
   // -------------------------
-  .section-title {
-    font-size: 1.1rem;
-  }
+  // .section-title {
+  //   font-size: 1.1rem;
+  // }
   
-  // -------------------------
-  // header
-  // -------------------------
+  // // -------------------------
+  // // header
+  // // -------------------------
 
-  #header {
-    position: fixed;
-    img {
-    width: 250px;
-    bottom: -6px;
-    }
-  }
+  // #header {
+  //   position: fixed;
+  //   img {
+  //   width: 250px;
+  //   bottom: -6px;
+  //   }
+  // }
 
 
-  // -------------------------
-  // hamburger menu
-  // -------------------------
-  .hamburger-menu {
-    right: 13.5%;
-  }
+  // // -------------------------
+  // // hamburger menu
+  // // -------------------------
+  // .hamburger-menu {
+  //   right: 13.5%;
+  // }
 
-  .portfolio-icon {
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    left: 15px;
-    top: .5px;
-  }
+  // .portfolio-icon {
+  //   width: 20px;
+  //   height: 20px;
+  //   position: absolute;
+  //   left: 15px;
+  //   top: .5px;
+  // }
 
   // ------------------------
   // main-visual
   // ------------------------
-  .main-visual-text {
-    font-size: 1rem;
-  }
+  // .main-visual-text {
+  //   font-size: 1rem;
+  // }
   
   // ------------------------
   // feature
@@ -174,9 +174,9 @@ a {
   .feature-main-visual {
     .feature-text {
       font-size: 1.1rem;
-      &-img {
-        width: 45px;
-      }
+      // &-img {
+      //   width: 45px;
+      // }
     }
   }
 
@@ -187,14 +187,14 @@ a {
   // ------------------------
   // category
   // ------------------------
-  .category-grid {
-    p {
-      font-size: .75rem;
-    }
-    img {
-      width: 15px;
-    }
-  }
+  // .category-grid {
+  //   p {
+  //     font-size: .75rem;
+  //   }
+  //   img {
+  //     width: 15px;
+  //   }
+  // }
 
   // ------------------------
   // shop-item
@@ -227,48 +227,49 @@ a {
 .price {
   font-size: .8rem;
 }
-  // ------------------------
-  // sale
-  // ------------------------
-  .sub-title {
-    font-size: .8rem;
-  }
-  // ------------------------
-  // ranking
-  // ------------------------
-  .ranking-title {
-    font-size: 1rem;
-  }
-
-// -------------------------
-// footer
-// -------------------------
-#footer {
-  padding-bottom: 0;
-  .site-nav {
-    & i {
-      margin-right: 5px;
-    }
-  }
-}
-.footer-nav {
+// ------------------------
+// sale
+// ------------------------
+.sub-title {
   font-size: .8rem;
 }
-
-#copy {
-  font-size: .6rem;
+// ------------------------
+// ranking
+// ------------------------
+.ranking-title {
+  font-size: 1rem;
 }
 
-.address {
-    margin-bottom: 10px;
-    &-item {
-      margin-right: 15px;
-    }
-    & p {
-      margin-bottom: 10px;
-    }
-  }
 }
+// // -------------------------
+// // footer
+// // -------------------------
+// #footer {
+//   padding-bottom: 0;
+//   .site-nav {
+//     & i {
+//       margin-right: 5px;
+//     }
+//   }
+// }
+// .footer-nav {
+//   font-size: .8rem;
+// }
+
+// #copy {
+//   font-size: .6rem;
+// }
+
+// .address {
+//     margin-bottom: 10px;
+//     &-item {
+//       margin-right: 15px;
+//     }
+//     & p {
+//       margin-bottom: 10px;
+//     }
+//   }
+// }
 // -------------------------
 // @media min 1000
 // -------------------------
@@ -278,66 +279,66 @@ a {
 // -------------------------
 // common
 // -------------------------
-  .wrapper {
-    width: 75%;
-  }
+  // .wrapper {
+  //   width: 75%;
+  // }
   .details-text {
     font-size: .85rem;
   }
 
-// -------------------------
-// header
-// -------------------------
-.desktop-nav {
-  display: block;
-  font-size: .85rem;
-  line-height: 40px;
-  li {
-    margin-left: 15px;
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-}
-.pc-nav {
-  display: flex;
-  i {
-    line-height: 40px;
-    }
-  }
-  #header .header-wrap {
-    width: 75%;
-  }
+// // -------------------------
+// // header
+// // -------------------------
+// .desktop-nav {
+//   display: block;
+//   font-size: .85rem;
+//   line-height: 40px;
+//   li {
+//     margin-left: 15px;
+//     &:hover {
+//       text-decoration: underline;
+//     }
+//   }
+// }
+// .pc-nav {
+//   display: flex;
+//   i {
+//     line-height: 40px;
+//     }
+//   }
+//   #header .header-wrap {
+//     width: 75%;
+//   }
   
-  .ranking-main-title {
-    width: 75%;
-  }
+//   .ranking-main-title {
+//     width: 75%;
+//   }
 
-  .mobile-nav {
-  display: none;
-  }
+//   .mobile-nav {
+//   display: none;
+//   }
 // -------------------------
 // white-bg
 // -------------------------
-  .white-bg {
-    width: 100%;
-    &-inner {
-      width: 75%;
-    }
-  }
+  // .white-bg {
+  //   width: 100%;
+  //   &-inner {
+  //     width: 75%;
+  //   }
+  // }
 
-  #feature-banner,
-  #sale-banner {
-    max-width: 800px;
-  }
-  #feature-banner {
-    h2 {
-      font-size: 1.8rem;
-    }
-    .feature-text-img {
-      width: 80px;
-    }
-  }
+  // #feature-banner,
+  // #sale-banner {
+  //   max-width: 800px;
+  // }
+  // #feature-banner {
+  //   h2 {
+  //     font-size: 1.8rem;
+  //   }
+  //   .feature-text-img {
+  //     width: 80px;
+  //   }
+  // }
 
  .shop-item-wrap-flex {
     flex-direction: row;
@@ -354,7 +355,7 @@ a {
 }
 
 // -------------------------
-// @media min 1000
+// @media min 1100
 // -------------------------
 
 @media (min-width: 1100px) {
@@ -362,4 +363,3 @@ a {
     font-size: 1rem;
   }
 }
-

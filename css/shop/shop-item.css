@@ -116,50 +116,12 @@ a:hover .item-details {
 }
 
 @media (max-width: 450px) {
-  .section-title {
-    font-size: 1.1rem;
-  }
-
-  #header {
-    position: fixed;
-  }
-  #header img {
-    width: 250px;
-    bottom: -6px;
-  }
-
-  .hamburger-menu {
-    right: 13.5%;
-  }
-
-  .portfolio-icon {
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    left: 15px;
-    top: 0.5px;
-  }
-
-  .main-visual-text {
-    font-size: 1rem;
-  }
-
   .feature-main-visual .feature-text {
     font-size: 1.1rem;
-  }
-  .feature-main-visual .feature-text-img {
-    width: 45px;
   }
 
   .feature-explanation {
     font-size: 1rem;
-  }
-
-  .category-grid p {
-    font-size: 0.75rem;
-  }
-  .category-grid img {
-    width: 15px;
   }
 
   .item-details {
@@ -198,89 +160,10 @@ a:hover .item-details {
   .ranking-title {
     font-size: 1rem;
   }
-
-  #footer {
-    padding-bottom: 0;
-  }
-  #footer .site-nav i {
-    margin-right: 5px;
-  }
-
-  .footer-nav {
-    font-size: 0.8rem;
-  }
-
-  #copy {
-    font-size: 0.6rem;
-  }
-
-  .address {
-    margin-bottom: 10px;
-  }
-  .address-item {
-    margin-right: 15px;
-  }
-  .address p {
-    margin-bottom: 10px;
-  }
 }
 @media (min-width: 1000px) {
-  .wrapper {
-    width: 75%;
-  }
-
   .details-text {
     font-size: 0.85rem;
-  }
-
-  .desktop-nav {
-    display: block;
-    font-size: 0.85rem;
-    line-height: 40px;
-  }
-  .desktop-nav li {
-    margin-left: 15px;
-  }
-  .desktop-nav li:hover {
-    text-decoration: underline;
-  }
-
-  .pc-nav {
-    display: flex;
-  }
-  .pc-nav i {
-    line-height: 40px;
-  }
-
-  #header .header-wrap {
-    width: 75%;
-  }
-
-  .ranking-main-title {
-    width: 75%;
-  }
-
-  .mobile-nav {
-    display: none;
-  }
-
-  .white-bg {
-    width: 100%;
-  }
-  .white-bg-inner {
-    width: 75%;
-  }
-
-  #feature-banner,
-#sale-banner {
-    max-width: 800px;
-  }
-
-  #feature-banner h2 {
-    font-size: 1.8rem;
-  }
-  #feature-banner .feature-text-img {
-    width: 80px;
   }
 
   .shop-item-wrap-flex {

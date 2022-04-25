@@ -1,3 +1,9 @@
+$accent-color: #fffbcc;
+$main-color: #707070;
+$border-color: #cfcece;
+$bg-color: #fff;
+$sale-color: #eb3c10;
+
 // -------------------------
 // @media min 650
 // -------------------------
@@ -19,16 +25,16 @@
 // -------------------------
 // common
 // -------------------------
-  .wrapper {
-    width: 75%;
-  }
+  // .wrapper {
+  //   width: 75%;
+  // }
 
-  .white-bg {
-    width: 100%;
-    &-inner {
-      width: 75%;
-    }
-  }
+  // .white-bg {
+  //   width: 100%;
+  //   &-inner {
+  //     width: 75%;
+  //   }
+  // }
 
 // -------------------------
 // banner
@@ -43,41 +49,41 @@
   }
 
   
-// -------------------------
-// header
-// -------------------------
-  #header{
-    .header-wrap {
-      width: 75%;
-      display: flex;
-    }
-    .mobile-nav {
-    display: none;
-    }
-  }
+// // -------------------------
+// // header
+// // -------------------------
+//   #header{
+//     .header-wrap {
+//       width: 75%;
+//       display: flex;
+//     }
+//     .mobile-nav {
+//     display: none;
+//     }
+//   }
     
-  .desktop-nav {
-    display: block;
-    line-height: 40px;
-    font-size: .85rem;
-    li {
-      margin-left: 15px;
-      &:hover {
-        text-decoration: underline;
-      }
-    }
-  }
-  .pc-nav {
-    display: flex;
-  }
+//   .desktop-nav {
+//     display: block;
+//     line-height: 40px;
+//     font-size: .85rem;
+//     li {
+//       margin-left: 15px;
+//       &:hover {
+//         text-decoration: underline;
+//       }
+//     }
+//   }
+//   .pc-nav {
+//     display: flex;
+//   }
 
-  #search-form {
-    width: 400px;
-    padding: 1.5px;
-    & .form-text {
-      width: 85%;
-    }
-  }
+//   #search-form {
+//     width: 400px;
+//     padding: 1.5px;
+//     & .form-text {
+//       width: 85%;
+//     }
+//   }
 
 // -------------------------
 // main-visual
@@ -158,6 +164,7 @@
 
 
 // -------------------------
+
 // sns
 // -------------------------
   #sns .fa-2x {
