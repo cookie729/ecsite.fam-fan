@@ -752,105 +752,154 @@ a:hover .arrow-animation {
     width: 25px;
   }
 }
-@media (min-width: 1000px) {
-  .main-visual {
-    height: 400px;
-  }
-
-  .main-visual-text {
-    font-size: 1.8rem;
-    left: 11.5%;
-  }
-
-  #category .grid {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  }
-  #category .grid img {
-    margin-left: 10%;
-    margin-right: 5%;
-  }
-  #category .grid i {
-    margin-right: 10%;
-  }
-  #category .grid a {
-    padding: 15px 0;
-  }
-  #category .grid a:hover i {
-    margin-right: 10%;
-  }
-
-  #select .shop-item-wrap-desk-top,
-#sale .shop-item-wrap-desk-top,
-#ranking .shop-item-wrap-desk-top {
-    display: block;
-  }
-
-  .shop-item-wrap {
-    width: 18%;
-    max-width: 250px;
-  }
-
-  .ranking-wrap .shop-item-wrap {
-    width: 30%;
-    max-width: 250px;
-  }
-
-  .ranking-desktop,
-.feature-desktop {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .ranking-wrap {
-    width: 47%;
-    margin: 0;
-  }
-
-  .ranking-main-title {
-    width: 75%;
-  }
-
-  #sns .fa-2x {
-    font-size: 50px;
-  }
-
-  .sns-wrap {
-    margin: 0 auto;
-    max-width: 1100px;
-  }
+#select,
+#sale,
+.ranking-pt,
+#feature,
+#category-item {
+  padding-top: 80px;
 }
+
+.section-title {
+  margin-bottom: 15px;
+}
+
+.sub-title {
+  margin-bottom: 15px;
+}
+
+.shop-item-wrap {
+  width: 100%;
+  border: none;
+  margin-bottom: 30px;
+}
+
+.shop-item-wrap-desk-top {
+  display: block;
+}
+
+.shop-item-wrap-flex {
+  flex-direction: column;
+}
+
+.shop-item {
+  position: relative;
+  width: 30%;
+}
+
+.details-text {
+  font-size: 0.95rem;
+}
+
+a {
+  display: flex;
+}
+a:hover .item-details {
+  border-bottom: solid 1px #707070;
+}
+
+.price-text {
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 1.2rem;
+  color: #707070;
+}
+
+.sale-price {
+  color: #eb3c10;
+}
+
+.details-wrap {
+  margin-left: 20px;
+}
+
+.item-details {
+  font-size: 1.1rem;
+  height: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.price {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+#sale .section-title {
+  margin-bottom: 6px;
+}
+
+.ranking-wrap {
+  padding-top: 100px;
+  margin-top: -100px;
+  margin-bottom: 25px;
+}
+
+.feature-main-visual {
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  position: relative;
+  background: #fff;
+}
+
+.feature-tomato-img {
+  width: 70%;
+  position: relative;
+  margin: 0 auto;
+}
+.feature-tomato-img .feature-text {
+  color: #fff;
+  position: absolute;
+  font-size: 1.5rem;
+}
+.feature-tomato-img .feature-text-left {
+  top: 20%;
+}
+.feature-tomato-img .feature-text-right {
+  top: 70%;
+}
+
+.feature-explanation {
+  font-size: 1.1rem;
+}
+
+.feature-main-title {
+  width: 75%;
+}
+
 @media (max-width: 450px) {
-  .section-title {
+  .feature-tomato-img .feature-text {
     font-size: 1.1rem;
   }
 
-  .more {
-    font-size: 0.8rem;
-    width: 130px;
-    margin: 10px -55px 0 auto;
-  }
-
-  .main-visual-text {
+  .feature-explanation {
     font-size: 1rem;
   }
 
-  .category-grid p {
-    font-size: 0.75rem;
-  }
-  .category-grid img {
-    width: 15px;
+  .item-details {
+    height: 3rem;
+    margin-bottom: 0;
+    font-size: 1rem;
   }
 
-  .item-details {
-    font-size: 0.7rem;
-    height: 3.5rem;
+  a:hover .item-details {
+    border-bottom: none;
   }
-  .item-details .sale-price {
-    font-size: 0.6rem;
+
+  .price {
+    font-size: 0.8rem;
+  }
+
+  .details-text {
+    font-size: 0.75rem;
+  }
+
+  .price-text {
+    font-size: 1.1rem;
+  }
+
+  .price {
+    font-size: 0.8rem;
   }
 
   .sub-title {
@@ -860,28 +909,29 @@ a:hover .arrow-animation {
   .ranking-title {
     font-size: 1rem;
   }
-
-  #info-banner .section-title {
-    top: 10px;
+}
+@media (min-width: 1000px) {
+  .details-text {
+    font-size: 0.85rem;
   }
 
-  .info-text {
-    font-size: 0.8rem;
-    width: 100px;
-    bottom: 5px;
-    right: 0;
+  .shop-item-wrap-flex {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 
-  .news-wrap li {
-    font-size: 0.8rem;
+  .shop-item-wrap {
+    width: 48.5%;
   }
 
-  .sns-wrap .sns-icon {
-    font-size: 28px;
-  }
-
-  .sns-item {
-    font-size: 0.8rem;
+  #feature .feature-text {
+    font-size: 2.2rem;
   }
 }
-/*# sourceMappingURL=style.css.map */
+@media (min-width: 1100px) {
+  .details-text {
+    font-size: 1rem;
+  }
+}
+/*# sourceMappingURL=shopping.css.map */

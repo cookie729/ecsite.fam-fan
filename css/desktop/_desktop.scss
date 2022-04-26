@@ -5,90 +5,12 @@ $bg-color: #fff;
 $sale-color: #eb3c10;
 
 // -------------------------
-// @media min 650
-// -------------------------
-@media (min-width: 650px) {
-  #feature-banner {
-    h2 {
-      font-size: 1.5rem;
-    }
-    .feature-text-img {
-      width: 70px;
-    }
-  }
-}
-// -------------------------
 // @media min 1000
 // -------------------------
 @media (min-width: 1000px) {
-
-// -------------------------
-// common
-// -------------------------
-  // .wrapper {
-  //   width: 75%;
-  // }
-
-  // .white-bg {
-  //   width: 100%;
-  //   &-inner {
-  //     width: 75%;
-  //   }
-  // }
-
-// -------------------------
-// banner
-// -------------------------
-  #feature-banner {
-    h2 {
-      font-size: 1.8rem;
-    }
-    .feature-text-img {
-      width: 80px;
-    }
-  }
-
-  
-// // -------------------------
-// // header
-// // -------------------------
-//   #header{
-//     .header-wrap {
-//       width: 75%;
-//       display: flex;
-//     }
-//     .mobile-nav {
-//     display: none;
-//     }
-//   }
-    
-//   .desktop-nav {
-//     display: block;
-//     line-height: 40px;
-//     font-size: .85rem;
-//     li {
-//       margin-left: 15px;
-//       &:hover {
-//         text-decoration: underline;
-//       }
-//     }
-//   }
-//   .pc-nav {
-//     display: flex;
-//   }
-
-//   #search-form {
-//     width: 400px;
-//     padding: 1.5px;
-//     & .form-text {
-//       width: 85%;
-//     }
-//   }
-
-// -------------------------
-// main-visual
-// -------------------------
-
+  // -------------------------
+  // main-visual
+  // -------------------------
   .main-visual {
     height: 400px;
   }
@@ -97,10 +19,9 @@ $sale-color: #eb3c10;
     left: 11.5%;
   }
 
-
-// -------------------------
-// category
-// -------------------------
+  // -------------------------
+  // category
+  // -------------------------
   #category {
     .grid { 
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -120,9 +41,9 @@ $sale-color: #eb3c10;
     }
   }
 
-// -------------------------
-// shop-item
-// -------------------------
+  // -------------------------
+  // shop-item
+  // -------------------------
   #select,
   #sale,
   #ranking {
@@ -136,11 +57,11 @@ $sale-color: #eb3c10;
     max-width: 250px;
   }
   .ranking-wrap {
-  .shop-item-wrap {
-    width: 30%;
-    max-width: 250px;
+    .shop-item-wrap {
+      width: 30%;
+      max-width: 250px;
+    }
   }
-}
 
   .ranking-desktop,
   .feature-desktop {
@@ -154,20 +75,22 @@ $sale-color: #eb3c10;
     }
   }
   .ranking-wrap {
-  width: 47%;
-  margin: 0;
-}
+    width: 47%;
+    margin: 0;
+  }
 
   .ranking-main-title {
     width: 75%;
   }
 
-
-// -------------------------
-
-// sns
-// -------------------------
+  // -------------------------
+  // sns
+  // -------------------------
   #sns .fa-2x {
     font-size: 50px;
+  }
+  .sns-wrap {
+    margin: 0 auto;
+    max-width: 1100px;
   }
 }

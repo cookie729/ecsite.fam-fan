@@ -9,7 +9,7 @@
   .section-title {
     font-size: 1.1rem;
   }
-  
+
   // -------------------------
   // more
   // -------------------------
@@ -18,52 +18,12 @@
     width: 130px;
     margin: 10px -55px 0 auto;
   }
-  
-  // // -------------------------
-  // // header
-  // // -------------------------
-
-  // #header {
-  //   position: fixed;
-  //   img {
-  //   width: 250px;
-  //   bottom: -6px;
-  //   }
-  // }
-
-
-  // // -------------------------
-  // // hamburger menu
-  // // -------------------------
-  // .hamburger-menu {
-  //   right: 13.5%;
-  // }
-
-  // .portfolio-icon {
-  //   width: 20px;
-  //   height: 20px;
-  //   position: absolute;
-  //   left: 15px;
-  //   top: .5px;
-  // }
-
-
 
   // ------------------------
   // main-visual
   // ------------------------
   .main-visual-text {
     font-size: 1rem;
-  }
-  
-  // ------------------------
-  // feature
-  // ------------------------
-  .feature-text {
-    font-size: .8rem;
-    &-img {
-      width: 45px;
-    }
   }
 
   // ------------------------
@@ -84,6 +44,9 @@
   .item-details {
     font-size: .7rem;
     height: 3.5rem;
+    .sale-price {
+      font-size: .6rem;
+    }
   }
 
   // ------------------------
@@ -98,7 +61,6 @@
   .ranking-title {
     font-size: 1rem;
   }
-
 
   // -------------------------
   // info
@@ -133,34 +95,4 @@
   .sns-item {
     font-size: .8rem;
   }
-
-
-// // -------------------------
-// // footer
-// // -------------------------
-// #footer {
-//   padding-bottom: 0;
-//   .site-nav {
-//     & i {
-//       margin-right: 5px;
-//     }
-//   }
-// }
-// .footer-nav {
-//   font-size: .8rem;
-// }
-
-// #copy {
-//   font-size: .6rem;
-// }
-
-// .address {
-//     margin-bottom: 10px;
-//     &-item {
-//       margin-right: 15px;
-//     }
-//     & p {
-//       margin-bottom: 10px;
-//     }
-//   }
 }

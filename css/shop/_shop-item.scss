@@ -1,3 +1,8 @@
+$border-color: #cfcece;
+$main-color: #707070;
+$sale-color: #eb3c10;
+
+
 #select,
 #sale,
 .ranking-pt,
@@ -5,165 +10,182 @@
 #category-item {
   padding-top: 80px;
 }
-
 .section-title {
   margin-bottom: 15px;
 }
-
 .sub-title {
   margin-bottom: 15px;
 }
+
+// -------------------------
+// shop-item
+// -------------------------
 
 .shop-item-wrap {
   width: 100%;
   border: none;
   margin-bottom: 30px;
 }
-
 .shop-item-wrap-desk-top {
   display: block;
 }
-
 .shop-item-wrap-flex {
   flex-direction: column;
 }
-
 .shop-item {
   position: relative;
   width: 30%;
 }
-
 .details-text {
-  font-size: 0.95rem;
+  font-size: .95rem;
 }
-
 a {
   display: flex;
-}
-a:hover .item-details {
-  border-bottom: solid 1px #707070;
+  &:hover .item-details {
+    border-bottom: solid 1px $main-color;
+  }
 }
 
-.price-text {
+.price-text  {
   display: inline-block;
   margin-top: 5px;
   font-size: 1.2rem;
-  color: #707070;
+  color: $main-color;
 }
-
 .sale-price {
-  color: #eb3c10;
+  color: $sale-color;
 }
-
 .details-wrap {
   margin-left: 20px;
 }
-
 .item-details {
   font-size: 1.1rem;
   height: 1.5rem;
   margin-bottom: 15px;
 }
-
 .price {
   font-size: 1rem;
   margin-bottom: 15px;
 }
 
-#sale .section-title {
-  margin-bottom: 6px;
+#sale {
+  .section-title {
+    margin-bottom: 6px;
+  }
 }
 
+// -------------------------
+// ranking
+// -------------------------
 .ranking-wrap {
   padding-top: 100px;
   margin-top: -100px;
   margin-bottom: 25px;
 }
 
+// -------------------------
+// feature
+// -------------------------
 .feature-main-visual {
   width: 100%;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding: {
+    top: 5%;
+    bottom: 5%;
+  }
   position: relative;
   background: #fff;
 }
-.feature-main-visual .feature-tomato-img {
+.feature-tomato-img {
   width: 70%;
   position: relative;
   margin: 0 auto;
+  .feature-text {
+    color: #fff;
+    position: absolute;
+    font-size: 1.5rem;
+    &-left {
+      top: 20%;
+    }
+    &-right {
+      top: 70%;
+    }
+  }
 }
-.feature-main-visual .feature-text {
-  color: #fff;
-  position: absolute;
-  font-size: 1.5rem;
-}
-.feature-main-visual .feature-text-left {
-  top: 20%;
-}
-.feature-main-visual .feature-text-right {
-  top: 70%;
-}
-.feature-main-visual .feature-text-img {
-  width: 60px;
-}
-
 .feature-explanation {
   font-size: 1.1rem;
 }
-
 .feature-main-title {
   width: 75%;
 }
 
+// -------------------------
+// max 450
+// -------------------------
 @media (max-width: 450px) {
-  .feature-main-visual .feature-text {
-    font-size: 1.1rem;
+  // ------------------------
+  // feature
+  // ------------------------
+  .feature-tomato-img {
+    .feature-text {
+      font-size: 1.1rem;
+    }
   }
 
   .feature-explanation {
     font-size: 1rem;
   }
 
+  // ------------------------
+  // shop-item
+  // ------------------------
   .item-details {
     height: 3rem;
     margin-bottom: 0;
+    font-size: 1rem;
   }
-
-  a:hover .item-details {
-    border-bottom: none;
+  a {
+    &:hover .item-details {
+      border-bottom: none;
+    }
   }
 
   .price {
-    font-size: 0.8rem;
+    font-size: .8rem;
   }
 
   .details-text {
-    font-size: 0.8rem;
+    font-size: .75rem;
   }
 
-  .price-text {
+  .price-text  {
     font-size: 1.1rem;
   }
-
-  .item-details {
-    font-size: 1rem;
-  }
-
   .price {
-    font-size: 0.8rem;
+    font-size: .8rem;
   }
-
+  // ------------------------
+  // sale
+  // ------------------------
   .sub-title {
-    font-size: 0.8rem;
+    font-size: .8rem;
   }
-
+  // ------------------------
+  // ranking
+  // ------------------------
   .ranking-title {
     font-size: 1rem;
   }
 }
+
+// -------------------------
+// @media min 1000
+// -------------------------
 @media (min-width: 1000px) {
+// -------------------------
+// common
+// -------------------------
   .details-text {
-    font-size: 0.85rem;
+    font-size: .85rem;
   }
 
   .shop-item-wrap-flex {
@@ -171,7 +193,6 @@ a:hover .item-details {
     flex-wrap: wrap;
     justify-content: space-between;
   }
-
   .shop-item-wrap {
     width: 48.5%;
   }
@@ -180,9 +201,12 @@ a:hover .item-details {
     font-size: 2.2rem;
   }
 }
+
+// -------------------------
+// @media min 1100
+// -------------------------
 @media (min-width: 1100px) {
   .details-text {
     font-size: 1rem;
   }
 }
-/*# sourceMappingURL=shop-item.css.map */
