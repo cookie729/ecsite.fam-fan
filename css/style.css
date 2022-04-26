@@ -5,7 +5,6 @@ html {
 body {
   width: 100%;
   font-size: 100%;
-  font-family: "Dancing Script", cursive;
   font-family: "Metal", cursive "Noto Serif  JP", serif;
   background-color: #f7f7f7;
 }
@@ -587,6 +586,11 @@ a:hover .arrow-animation {
 }
 #footer .site-nav i {
   margin-right: 8px;
+}
+#footer .site-nav .portfolio-icon {
+  width: 21px;
+  height: 21px;
+  left: 0;
 }
 #footer .footer-menu {
   margin-right: 20%;
