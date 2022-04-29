@@ -49,11 +49,6 @@ a:hover {
   margin-right: auto;
 }
 
-#select {
-  padding-top: 100px;
-  margin-top: -100px;
-}
-
 .more {
   width: 130px;
   margin: 10px -40px 0 auto;
@@ -497,6 +492,7 @@ a:hover .arrow-animation {
 }
 #header {
   position: fixed;
+  top: 0;
   width: 100%;
   height: 40px;
   background: #fffbcc;
@@ -587,6 +583,11 @@ a:hover .arrow-animation {
 }
 #footer .site-nav i {
   margin-right: 8px;
+}
+#footer .site-nav .portfolio-icon {
+  width: 21px;
+  height: 21px;
+  left: 0;
 }
 #footer .footer-menu {
   margin-right: 20%;
