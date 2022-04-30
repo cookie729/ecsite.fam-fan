@@ -123,6 +123,9 @@ label {
   // -------------------------
   // news
   // -------------------------
+  #news {
+    overflow: hidden;
+  }
   .news-wrap li {
     font-size: .8rem;
   }

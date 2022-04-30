@@ -21,12 +21,13 @@ body {
   font-family: "Dancing Script", cursive;
   font-family: "Metal", cursive "Noto Serif  JP", serif;
   background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
 }
 
 img {
   width: 100%;
 }
-
 h1, h2, h3, p, a, li {
   font-family: "Noto Serif JP", serif;
   color: $main-color;
@@ -63,6 +64,13 @@ a:hover {
     right: auto;
   }
 }
+
+  #sale,
+  #select,
+  #ranking,
+  #news {
+    overflow: hidden;
+  }
 
 // -------------------------
 // more

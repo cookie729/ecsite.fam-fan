@@ -8,6 +8,8 @@ body {
   font-family: "Dancing Script", cursive;
   font-family: "Metal", cursive "Noto Serif  JP", serif;
   background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
 }
 
 img {
@@ -49,9 +51,11 @@ a:hover {
   margin-right: auto;
 }
 
-#select {
-  padding-top: 100px;
-  margin-top: -100px;
+#sale,
+#select,
+#ranking,
+#news {
+  overflow: hidden;
 }
 
 .more {
@@ -497,10 +501,12 @@ a:hover .arrow-animation {
 }
 #header {
   position: fixed;
-  width: 100%;
+  top: 0;
+  width: 100vw;
   height: 40px;
   background: #fffbcc;
   z-index: 100;
+  box-sizing: border-box;
 }
 #header .header-wrap {
   width: 85%;
@@ -588,6 +594,11 @@ a:hover .arrow-animation {
 #footer .site-nav i {
   margin-right: 8px;
 }
+#footer .site-nav .portfolio-icon {
+  width: 21px;
+  height: 21px;
+  left: 0;
+}
 #footer .footer-menu {
   margin-right: 20%;
 }
@@ -651,10 +662,6 @@ a:hover .arrow-animation {
   .header-design {
     width: 250px;
     bottom: -6px;
-  }
-
-  .hamburger-menu {
-    right: 13.5%;
   }
 
   #footer {
@@ -848,6 +855,10 @@ label {
     width: 100px;
     bottom: 5px;
     right: 0;
+  }
+
+  #news {
+    overflow: hidden;
   }
 
   .news-wrap li {

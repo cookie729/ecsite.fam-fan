@@ -10,10 +10,11 @@ $sale-color: #eb3c10;
 #header {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 100vw;
   height: 40px;
   background: $accent-color;
   z-index: 100;
+  box-sizing: border-box;
   .header-wrap {
     width: 85%;
     margin: 0 auto;
@@ -196,13 +197,6 @@ $sale-color: #eb3c10;
     width: 250px;
     bottom: -6px;
     }
-
-  // -------------------------
-  // hamburger menu
-  // -------------------------
-  .hamburger-menu {
-    right: 13.5%;
-  }
 
   // -------------------------
   // footer
